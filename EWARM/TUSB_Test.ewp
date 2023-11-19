@@ -2,7 +2,7 @@
 <project>
     <fileVersion>3</fileVersion>
     <configuration>
-        <name>TUSB_Test</name>
+        <name>TUSB_STM32G0</name>
         <toolchain>
             <name>ARM</name>
         </toolchain>
@@ -16,19 +16,19 @@
                 <debug>1</debug>
                 <option>
                     <name>BrowseInfoPath</name>
-                    <state>TUSB_Test\BrowseInfo</state>
+                    <state>TUSB_STM32G0\BrowseInfo</state>
                 </option>
                 <option>
                     <name>ExePath</name>
-                    <state>TUSB_Test/Exe</state>
+                    <state>TUSB_STM32G0/Exe</state>
                 </option>
                 <option>
                     <name>ObjPath</name>
-                    <state>TUSB_Test/Obj</state>
+                    <state>TUSB_STM32G0/Obj</state>
                 </option>
                 <option>
                     <name>ListPath</name>
-                    <state>TUSB_Test/List</state>
+                    <state>TUSB_STM32G0/List</state>
                 </option>
                 <option>
                     <name>GEndianMode</name>
@@ -201,7 +201,7 @@
                 </option>
                 <option>
                     <name>BuildFilesPath</name>
-                    <state>TUSB_Test</state>
+                    <state>TUSB_STM32G0</state>
                 </option>
                 <option>
                     <name>PointerAuthentication</name>
@@ -357,7 +357,7 @@
                     <state>$PROJ_DIR$</state>
                     <state>$TUSB_DIR$/hw</state>
                     <state>$TUSB_DIR$\lib\CMSIS_5\CMSIS\Core\Include</state>
-                    <state>$TUSB_DIR$\examples\device\audio_4_channel_mic\src</state>
+                    <state>$TUSB_DIR$\examples\device\uac2_speaker_fb\src</state>
                     <state>$TUSB_DIR$\hw\mcu\st\cmsis_device_g0\Include</state>
                     <state>$TUSB_DIR$\hw\mcu\st\stm32g0xx_hal_driver\Inc</state>
                     <state>$TUSB_DIR$\hw\bsp</state>
@@ -660,7 +660,7 @@
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state>TUSB_Test.bin</state>
+                    <state>TUSB_STM32G0.bin</state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>
@@ -707,7 +707,7 @@
                 </option>
                 <option>
                     <name>IlinkOutputFile</name>
-                    <state>TUSB_Test.elf</state>
+                    <state>TUSB_STM32G0.elf</state>
                 </option>
                 <option>
                     <name>IlinkDebugInfoEnable</name>
@@ -1004,7 +1004,7 @@
                 </option>
                 <option>
                     <name>IlinkTrustzoneImportLibraryOut</name>
-                    <state>TUSB_Test_import_lib.o</state>
+                    <state>TUSB_STM32G0_import_lib.o</state>
                 </option>
                 <option>
                     <name>OILinkExtraOption</name>
@@ -1450,7 +1450,7 @@
                     <state>$TUSB_DIR$\lib\SEGGER_RTT\Config</state>
                     <state>$PROJ_DIR$</state>
                     <state>$TUSB_DIR$/hw</state>
-                    <state>$TUSB_DIR$\examples\device\audio_4_channel_mic\src</state>
+                    <state>$TUSB_DIR$\examples\device\uac2_speaker_fb\src</state>
                     <state>$TUSB_DIR$\hw\mcu\nxp\mcux-sdk\devices\LPC55S69</state>
                     <state>$TUSB_DIR$\hw\bsp\lpc55\boards\lpcxpresso55s69</state>
                     <state>$TUSB_DIR$\lib\CMSIS_5\CMSIS\Core\Include</state>
@@ -1758,7 +1758,7 @@
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state>TUSB_Test.bin</state>
+                    <state>TUSB_STM32G0.bin</state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>
@@ -1805,7 +1805,7 @@
                 </option>
                 <option>
                     <name>IlinkOutputFile</name>
-                    <state>TUSB_Test.elf</state>
+                    <state>TUSB_LPC55.elf</state>
                 </option>
                 <option>
                     <name>IlinkDebugInfoEnable</name>
@@ -2102,7 +2102,7 @@
                 </option>
                 <option>
                     <name>IlinkTrustzoneImportLibraryOut</name>
-                    <state>TUSB_Test_import_lib.o</state>
+                    <state>TUSB_STM32G0_import_lib.o</state>
                 </option>
                 <option>
                     <name>OILinkExtraOption</name>
@@ -2897,7 +2897,7 @@
                 </option>
                 <option>
                     <name>IlinkOutputFile</name>
-                    <state>TUSB_Test.elf</state>
+                    <state>TUSB_F429.elf</state>
                 </option>
                 <option>
                     <name>IlinkDebugInfoEnable</name>
@@ -3194,7 +3194,7 @@
                 </option>
                 <option>
                     <name>IlinkTrustzoneImportLibraryOut</name>
-                    <state>TUSB_Test_import_lib.o</state>
+                    <state>TUSB_STM32G0_import_lib.o</state>
                 </option>
                 <option>
                     <name>OILinkExtraOption</name>
@@ -3286,13 +3286,14 @@
         <file>
             <name>$PROJ_DIR$\startup_LPC55S69_cm33_core0.s</name>
             <excluded>
-                <configuration>TUSB_Test</configuration>
+                <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_STM32F429_HSnoPhy</configuration>
             </excluded>
         </file>
         <file>
             <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_f4\Source\Templates\iar\startup_stm32f429xx.s</name>
             <excluded>
+                <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_LPC55</configuration>
             </excluded>
         </file>
@@ -3306,13 +3307,14 @@
         <file>
             <name>$TUSB_DIR$\hw\mcu\nxp\mcux-sdk\devices\LPC55S69\system_LPC55S69_cm33_core0.c</name>
             <excluded>
-                <configuration>TUSB_Test</configuration>
+                <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_STM32F429_HSnoPhy</configuration>
             </excluded>
         </file>
         <file>
             <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_f4\Source\Templates\system_stm32f4xx.c</name>
             <excluded>
+                <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_LPC55</configuration>
             </excluded>
         </file>
@@ -3329,13 +3331,14 @@
         <file>
             <name>$PROJ_DIR$\LPC55S69_cm33_core0_flash.icf</name>
             <excluded>
-                <configuration>TUSB_Test</configuration>
+                <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_STM32F429_HSnoPhy</configuration>
             </excluded>
         </file>
         <file>
             <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_f4\Source\Templates\iar\linker\stm32f429xx_flash.icf</name>
             <excluded>
+                <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_LPC55</configuration>
             </excluded>
         </file>
@@ -3352,6 +3355,8 @@
         <group>
             <name>audio_4ch_mic</name>
             <excluded>
+                <configuration>TUSB_STM32G0</configuration>
+                <configuration>TUSB_LPC55</configuration>
                 <configuration>TUSB_STM32F429_HSnoPhy</configuration>
             </excluded>
             <file>
@@ -3370,6 +3375,8 @@
         <group>
             <name>cdc_dual_ports</name>
             <excluded>
+                <configuration>TUSB_STM32G0</configuration>
+                <configuration>TUSB_LPC55</configuration>
                 <configuration>TUSB_STM32F429_HSnoPhy</configuration>
             </excluded>
             <file>
@@ -3390,6 +3397,8 @@
         <group>
             <name>cdc_uac2</name>
             <excluded>
+                <configuration>TUSB_STM32G0</configuration>
+                <configuration>TUSB_LPC55</configuration>
                 <configuration>TUSB_STM32F429_HSnoPhy</configuration>
             </excluded>
             <file>
@@ -3430,6 +3439,7 @@
     <group>
         <name>hal_f4</name>
         <excluded>
+            <configuration>TUSB_STM32G0</configuration>
             <configuration>TUSB_LPC55</configuration>
         </excluded>
         <file>
@@ -3503,13 +3513,14 @@
         <file>
             <name>$TUSB_DIR$\hw\bsp\lpc55\family.c</name>
             <excluded>
-                <configuration>TUSB_Test</configuration>
+                <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_STM32F429_HSnoPhy</configuration>
             </excluded>
         </file>
         <file>
             <name>$TUSB_DIR$\hw\bsp\stm32f4\family.c</name>
             <excluded>
+                <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_LPC55</configuration>
             </excluded>
         </file>
@@ -3517,7 +3528,7 @@
     <group>
         <name>MCUX</name>
         <excluded>
-            <configuration>TUSB_Test</configuration>
+            <configuration>TUSB_STM32G0</configuration>
             <configuration>TUSB_STM32F429_HSnoPhy</configuration>
         </excluded>
         <file>
