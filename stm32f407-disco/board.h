@@ -33,14 +33,21 @@
 
 // LED
 #define LED_PORT              GPIOD
-#define LED_PIN               GPIO_PIN_13
-#define LED_STATE_ON          0
+#define LED_PIN               GPIO_PIN_14
+#define LED_STATE_ON          1
 
 // Button
 #define BUTTON_PORT           GPIOA
 #define BUTTON_PIN            GPIO_PIN_0
 #define BUTTON_STATE_ACTIVE   1
 
+// Enable PA2 as the debug log UART
+// It is not routed to the ST/Link on the Discovery board.
+#define UART_DEV              USART2
+#define UART_GPIO_PORT        GPIOA
+#define UART_GPIO_AF          GPIO_AF7_USART2
+#define UART_TX_PIN           GPIO_PIN_2
+#define UART_RX_PIN           GPIO_PIN_3
 
 //--------------------------------------------------------------------+
 // RCC Clock
@@ -53,10 +60,9 @@ static inline void board_clock_init(void)
   /* Enable Power Control clock */
   __HAL_RCC_PWR_CLK_ENABLE();
 
-  /* The voltage scaling allows optimizing the power consumption when the
-   * device is clocked below the maximum system frequency, to update the
-   * voltage scaling value regarding system frequency refer to product
-   * datasheet.  */
+  /* The voltage scaling allows optimizing the power consumption when the device is
+     clocked below the maximum system frequency, to update the voltage scaling value
+     regarding system frequency refer to product datasheet.  */
   __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE1);
 
   /* Enable HSE Oscillator and activate PLL with HSE as source */
@@ -71,33 +77,26 @@ static inline void board_clock_init(void)
   HAL_RCC_OscConfig(&RCC_OscInitStruct);
 
   /* Select PLL as system clock source and configure the HCLK, PCLK1 and PCLK2
-   * clocks dividers */
-  RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_SYSCLK | RCC_CLOCKTYPE_HCLK |
-                                RCC_CLOCKTYPE_PCLK1 | RCC_CLOCKTYPE_PCLK2;
-
+     clocks dividers */
+  RCC_ClkInitStruct.ClockType = (RCC_CLOCKTYPE_SYSCLK | RCC_CLOCKTYPE_HCLK | RCC_CLOCKTYPE_PCLK1 | RCC_CLOCKTYPE_PCLK2);
   RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV4;
   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV2;
   HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_5);
 
-  // Enable clocks for LED, Button
+  // Enable clocks for LED, Button, Uart
   __HAL_RCC_GPIOA_CLK_ENABLE();
-  __HAL_RCC_GPIOB_CLK_ENABLE();
-  __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOD_CLK_ENABLE();
-  __HAL_RCC_GPIOE_CLK_ENABLE();
-  __HAL_RCC_GPIOF_CLK_ENABLE();
-  __HAL_RCC_GPIOG_CLK_ENABLE();
-  __HAL_RCC_GPIOH_CLK_ENABLE();
+  __HAL_RCC_USART2_CLK_ENABLE();
 }
 
 static inline void board_vbus_sense_init(void)
 {
   // Enable VBUS sense (B device) via pin PA9
-  USB_OTG_FS->GCCFG |= USB_OTG_GCCFG_NOVBUSSENS;
+  USB_OTG_FS->GCCFG &= ~USB_OTG_GCCFG_NOVBUSSENS;
   USB_OTG_FS->GCCFG |= USB_OTG_GCCFG_VBUSBSEN;
-  // Enable VBUS sense (B device) via pin PB13
+  // Force VBUS sense (B device)
   USB_OTG_HS->GCCFG |= USB_OTG_GCCFG_NOVBUSSENS;
   USB_OTG_HS->GCCFG |= USB_OTG_GCCFG_VBUSBSEN;
 }
