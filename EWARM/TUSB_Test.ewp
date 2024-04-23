@@ -716,7 +716,7 @@
                 </option>
                 <option>
                     <name>IlinkOutputFile</name>
-                    <state>TUSB_STM32G0.elf</state>
+                    <state>TUSB_Test.out</state>
                 </option>
                 <option>
                     <name>IlinkDebugInfoEnable</name>
@@ -1828,7 +1828,7 @@
                 </option>
                 <option>
                     <name>IlinkOutputFile</name>
-                    <state>TUSB_LPC55.elf</state>
+                    <state>TUSB_Test.out</state>
                 </option>
                 <option>
                     <name>IlinkDebugInfoEnable</name>
@@ -2935,7 +2935,7 @@
                 </option>
                 <option>
                     <name>IlinkOutputFile</name>
-                    <state>TUSB_F429.elf</state>
+                    <state>TUSB_Test.out</state>
                 </option>
                 <option>
                     <name>IlinkDebugInfoEnable</name>
@@ -4041,7 +4041,7 @@
                 </option>
                 <option>
                     <name>IlinkOutputFile</name>
-                    <state>TUSB_F4-DISCO.elf</state>
+                    <state>TUSB_Test.out</state>
                 </option>
                 <option>
                     <name>IlinkDebugInfoEnable</name>
@@ -5146,7 +5146,7 @@
                 </option>
                 <option>
                     <name>IlinkOutputFile</name>
-                    <state>TUSB_STM32G0.elf</state>
+                    <state>TUSB_Test.out</state>
                 </option>
                 <option>
                     <name>IlinkDebugInfoEnable</name>
@@ -6250,7 +6250,7 @@
                 </option>
                 <option>
                     <name>IlinkOutputFile</name>
-                    <state>TUSB_STM32G0.elf</state>
+                    <state>TUSB_Test.out</state>
                 </option>
                 <option>
                     <name>IlinkDebugInfoEnable</name>
@@ -7009,7 +7009,7 @@
                     <state>$TUSB_DIR$\hw\mcu\st\stm32f7xx_hal_driver\Inc</state>
                     <state>$TUSB_DIR$\hw\bsp\stm32f7</state>
                     <state>$TUSB_DIR$\hw\bsp\stm32f7\boards\stm32f723disco</state>
-                    <state>$TUSB_DIR$\examples\device\uac2_headset\src</state>
+                    <state>$TUSB_DIR$\examples\device\cdc_dual_ports\src</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -8044,7 +8044,7 @@
                 <option>
                     <name>CCAllowList</name>
                     <version>1</version>
-                    <state>00000000</state>
+                    <state>11111110</state>
                 </option>
                 <option>
                     <name>CCDebugInfo</name>
@@ -8131,7 +8131,7 @@
                 </option>
                 <option>
                     <name>CCOptLevel</name>
-                    <state>1</state>
+                    <state>3</state>
                 </option>
                 <option>
                     <name>CCOptStrategy</name>
@@ -8140,7 +8140,7 @@
                 </option>
                 <option>
                     <name>CCOptLevelSlave</name>
-                    <state>1</state>
+                    <state>3</state>
                 </option>
                 <option>
                     <name>CCPosIndRopi</name>
@@ -9363,6 +9363,9 @@
             <name>$TUSB_DIR$\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal_cortex.c</name>
         </file>
         <file>
+            <name>$TUSB_DIR$\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal_dcache.c</name>
+        </file>
+        <file>
             <name>$TUSB_DIR$\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal_gpio.c</name>
         </file>
         <file>
@@ -9445,7 +9448,6 @@
                 <configuration>TUSB_STM32F429_HSnoPhy</configuration>
                 <configuration>TUSB_STM32L0</configuration>
                 <configuration>TUSB_STM32H5</configuration>
-                <configuration>TUSB_STM32F723E-DISCO</configuration>
             </excluded>
             <file>
                 <name>$TUSB_DIR$\examples\device\cdc_dual_ports\src\main.c</name>
@@ -9540,6 +9542,7 @@
                 <configuration>TUSB_STM32F429_HSnoPhy</configuration>
                 <configuration>TUSB_STM32F4-DISCO</configuration>
                 <configuration>TUSB_STM32L0</configuration>
+                <configuration>TUSB_STM32F723E-DISCO</configuration>
                 <configuration>TUSB_NUCLEO-U5A5</configuration>
             </excluded>
             <file>
