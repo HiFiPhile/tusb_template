@@ -9658,6 +9658,9 @@
                     </file>
                 </group>
             </group>
+            <file>
+                <name>$TUSB_DIR$\hw\bsp\board.c</name>
+            </file>
         </group>
         <group>
             <name>src</name>
