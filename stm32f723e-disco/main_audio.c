@@ -95,6 +95,8 @@ void audio_task(void);
 #if CFG_AUDIO_DEBUG
 void audio_debug_task(void);
 uint8_t current_alt_settings;
+uint16_t fifo_count;
+uint32_t fifo_count_avg;
 #endif
 
 /*------------- MAIN -------------*/
@@ -138,7 +140,7 @@ void tud_mount_cb(void)
 void tud_umount_cb(void)
 {
   blink_interval_ms = BLINK_NOT_MOUNTED;
-  BSP_AUDIO_OUT_Stop(CODEC_PDWN_SW);
+  BSP_AUDIO_OUT_Pause();
 }
 
 // Invoked when usb bus is suspended
@@ -147,7 +149,7 @@ void tud_umount_cb(void)
 void tud_suspend_cb(bool remote_wakeup_en)
 {
   (void)remote_wakeup_en;
-  BSP_AUDIO_OUT_Stop(CODEC_PDWN_SW);
+  BSP_AUDIO_OUT_Pause();
   blink_interval_ms = BLINK_SUSPENDED;
 }
 
@@ -364,7 +366,7 @@ bool tud_audio_set_itf_close_EP_cb(uint8_t rhport, tusb_control_request_t const 
 
   if (ITF_NUM_AUDIO_STREAMING == itf && alt == 0)
   {
-      BSP_AUDIO_OUT_Stop(CODEC_PDWN_SW);
+      BSP_AUDIO_OUT_Pause();
       memset(i2s_buffer, 0, sizeof(i2s_buffer));
       blink_interval_ms = BLINK_MOUNTED;
   }
@@ -400,6 +402,33 @@ void tud_audio_feedback_params_cb(uint8_t func_id, uint8_t alt_itf, audio_feedba
   feedback_param->sample_freq = current_sample_rate;
 }
 
+#if CFG_AUDIO_DEBUG
+bool tud_audio_rx_done_post_read_cb(uint8_t rhport, uint16_t n_bytes_received, uint8_t func_id, uint8_t ep_out, uint8_t cur_alt_setting)
+{
+  (void)rhport;
+  (void)func_id;
+  (void)ep_out;
+  (void)cur_alt_setting;
+
+  fifo_count = tud_audio_available();
+  // Same averaging method used in UAC2 class
+  fifo_count_avg = (uint32_t)(((uint64_t)fifo_count_avg * 63  + ((uint32_t)fifo_count << 16)) >> 6);
+
+  return true;
+}
+#endif
+
+#if CFG_TUD_QUIRK_HOST_OS_HINT
+bool tud_audio_feedback_format_correction_cb(uint8_t func_id)
+{
+  (void)func_id;
+  if(tud_speed_get() == TUSB_SPEED_FULL && tud_quirk_host_os_hint() == TUD_QUIRK_OS_HINT_OSX) {
+    return true;
+  } else {
+    return false;
+  }
+}
+#endif
 //--------------------------------------------------------------------+
 // BLINKING TASK
 //--------------------------------------------------------------------+
@@ -420,8 +449,6 @@ void led_blinking_task(void)
 //--------------------------------------------------------------------+
 // HID interface for audio debug
 //--------------------------------------------------------------------+
-static uint32_t fifo_count_avg;
-
 // Every 1ms, we will sent 1 debug information report
 void audio_debug_task(void)
 {
@@ -429,11 +456,6 @@ void audio_debug_task(void)
   uint32_t curr_ms = board_millis();
   if ( start_ms == curr_ms ) return; // not enough time
   start_ms = curr_ms;
-
-  uint16_t fifo_count = tud_audio_available();
-
-  // Same averaging method used in UAC2 class
-  fifo_count_avg = (uint32_t)(((uint64_t)fifo_count_avg * 63  + ((uint32_t)fifo_count << 16)) >> 6);
 
   audio_debug_info_t debug_info;
   debug_info.sample_rate    = current_sample_rate;

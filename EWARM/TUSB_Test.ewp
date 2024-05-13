@@ -6875,7 +6875,7 @@
                     <name>CCDefines</name>
                     <state>STM32F723xx</state>
                     <state>CFG_TUSB_MCU=OPT_MCU_STM32F7</state>
-                    <state>CFG_TUSB_DEBUG=2</state>
+                    <state>CFG_TUSB_DEBUG=0</state>
                     <state>LOGGER_RTT</state>
                     <state>BOARD_TUD_RHPORT=1</state>
                     <state>HSE_VALUE=25000000</state>
@@ -7004,6 +7004,7 @@
                     <name>CCIncludePath2</name>
                     <state>$PROJ_DIR$\..</state>
                     <state>$TUSB_DIR$/src</state>
+                    <state>$PROJ_DIR$\..\stm32f723e-disco</state>
                     <state>$TUSB_DIR$\lib\SEGGER_RTT\RTT</state>
                     <state>$TUSB_DIR$\lib\SEGGER_RTT\Config</state>
                     <state>$PROJ_DIR$</state>
@@ -7013,7 +7014,7 @@
                     <state>$TUSB_DIR$\hw\mcu\st\stm32f7xx_hal_driver\Inc</state>
                     <state>$TUSB_DIR$\hw\bsp\stm32f7</state>
                     <state>$TUSB_DIR$\hw\bsp\stm32f7\boards\stm32f723disco</state>
-                    <state>$TUSB_DIR$\examples\device\uac2_speaker_fb\src</state>
+                    <state>$TUSB_DIR$\examples\device\cdc_dual_ports\src</state>
                     <state>$TUSB_DIR$/lib/lwip/src/include</state>
                     <state>$TUSB_DIR$/lib/lwip/src/include/ipv4</state>
                     <state>$TUSB_DIR$/lib/lwip/src/include/lwip/apps</state>
@@ -9233,7 +9234,7 @@
                     <state>$TUSB_DIR$\hw\mcu\st\stm32f7xx_hal_driver\Inc</state>
                     <state>$TUSB_DIR$\hw\bsp\stm32f7</state>
                     <state>$TUSB_DIR$\hw\bsp\stm32f7\boards\stm32f723disco</state>
-                    <state>$TUSB_DIR$\examples\device\uac2_speaker_fb\src</state>
+                    <state>$TUSB_DIR$\examples\device\cdc_dual_ports\src</state>
                     <state>$TUSB_DIR$/lib/lwip/src/include</state>
                     <state>$TUSB_DIR$/lib/lwip/src/include/ipv4</state>
                     <state>$TUSB_DIR$/lib/lwip/src/include/lwip/apps</state>
@@ -10125,6 +10126,10 @@
         </file>
         <file>
             <name>$PROJ_DIR$\..\stm32f723e-disco\main_audio.c</name>
+            <excluded>
+                <configuration>TUSB_STM32F723E-DISCO</configuration>
+                <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
+            </excluded>
         </file>
         <file>
             <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_f7\Source\Templates\iar\startup_stm32f723xx.s</name>
@@ -10634,9 +10639,7 @@
                 <configuration>TUSB_STM32F4-DISCO</configuration>
                 <configuration>TUSB_STM32L0</configuration>
                 <configuration>TUSB_STM32H5</configuration>
-                <configuration>TUSB_STM32F723E-DISCO</configuration>
                 <configuration>TUSB_NUCLEO-U5A5</configuration>
-                <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
             </excluded>
             <file>
                 <name>$TUSB_DIR$\examples\device\cdc_dual_ports\src\main.c</name>
@@ -10734,7 +10737,11 @@
             <excluded>
                 <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_LPC55</configuration>
+                <configuration>TUSB_STM32F429_HSnoPhy</configuration>
+                <configuration>TUSB_STM32L0</configuration>
+                <configuration>TUSB_STM32H5</configuration>
                 <configuration>TUSB_STM32F723E-DISCO</configuration>
+                <configuration>TUSB_NUCLEO-U5A5</configuration>
                 <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
             </excluded>
             <file>
@@ -10783,7 +10790,9 @@
                 <configuration>TUSB_STM32F4-DISCO</configuration>
                 <configuration>TUSB_STM32L0</configuration>
                 <configuration>TUSB_STM32H5</configuration>
+                <configuration>TUSB_STM32F723E-DISCO</configuration>
                 <configuration>TUSB_NUCLEO-U5A5</configuration>
+                <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
             </excluded>
             <file>
                 <name>$TUSB_DIR$\examples\device\uac2_speaker_fb\src\common_types.h</name>
@@ -10791,6 +10800,7 @@
             <file>
                 <name>$TUSB_DIR$\examples\device\uac2_speaker_fb\src\main.c</name>
                 <excluded>
+                    <configuration>TUSB_STM32F723E-DISCO</configuration>
                     <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
                 </excluded>
             </file>
@@ -10864,7 +10874,14 @@
         <group>
             <name>webusb_serial</name>
             <excluded>
+                <configuration>TUSB_STM32G0</configuration>
+                <configuration>TUSB_LPC55</configuration>
+                <configuration>TUSB_STM32F429_HSnoPhy</configuration>
+                <configuration>TUSB_STM32F4-DISCO</configuration>
+                <configuration>TUSB_STM32L0</configuration>
+                <configuration>TUSB_STM32H5</configuration>
                 <configuration>TUSB_STM32F723E-DISCO</configuration>
+                <configuration>TUSB_NUCLEO-U5A5</configuration>
                 <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
             </excluded>
             <file>
@@ -10890,7 +10907,11 @@
                 <excluded>
                     <configuration>TUSB_STM32G0</configuration>
                     <configuration>TUSB_LPC55</configuration>
+                    <configuration>TUSB_STM32F429_HSnoPhy</configuration>
+                    <configuration>TUSB_STM32L0</configuration>
+                    <configuration>TUSB_STM32H5</configuration>
                     <configuration>TUSB_STM32F723E-DISCO</configuration>
+                    <configuration>TUSB_NUCLEO-U5A5</configuration>
                     <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
                 </excluded>
                 <file>
@@ -11721,6 +11742,20 @@
             </file>
             <file>
                 <name>$TUSB_DIR$\src\tusb_option.h</name>
+            </file>
+            <file>
+                <name>$TUSB_DIR$\src\common\tusb_quirk.c</name>
+                <excluded>
+                    <configuration>TUSB_STM32G0</configuration>
+                    <configuration>TUSB_LPC55</configuration>
+                    <configuration>TUSB_STM32F429_HSnoPhy</configuration>
+                    <configuration>TUSB_STM32F4-DISCO</configuration>
+                    <configuration>TUSB_STM32L0</configuration>
+                    <configuration>TUSB_STM32H5</configuration>
+                    <configuration>TUSB_STM32F723E-DISCO</configuration>
+                    <configuration>TUSB_NUCLEO-U5A5</configuration>
+                    <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
+                </excluded>
             </file>
         </group>
     </group>
