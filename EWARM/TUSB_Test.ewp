@@ -360,18 +360,18 @@
                 <option>
                     <name>CCIncludePath2</name>
                     <state>$PROJ_DIR$\..</state>
-                    <state>$TUSB_DIR$/src</state>
-                    <state>$TUSB_DIR$\lib\SEGGER_RTT\RTT</state>
-                    <state>$TUSB_DIR$\lib\SEGGER_RTT\Config</state>
+                    <state>$PROJ_DIR$\..\tinyusb/src</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\SEGGER_RTT\RTT</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\SEGGER_RTT\Config</state>
                     <state>$PROJ_DIR$</state>
-                    <state>$TUSB_DIR$/hw</state>
-                    <state>$TUSB_DIR$\lib\CMSIS_5\CMSIS\Core\Include</state>
-                    <state>$TUSB_DIR$\examples\device\hid_generic_inout\src</state>
-                    <state>$TUSB_DIR$\hw\mcu\st\cmsis_device_g0\Include</state>
-                    <state>$TUSB_DIR$\hw\mcu\st\stm32g0xx_hal_driver\Inc</state>
-                    <state>$TUSB_DIR$\hw\bsp</state>
-                    <state>$TUSB_DIR$\hw\bsp\stm32g0\boards\stm32g0b1nucleo</state>
-                    <state>$TUSB_DIR$\hw\bsp\stm32g0</state>
+                    <state>$PROJ_DIR$\..\tinyusb/hw</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\CMSIS_5\CMSIS\Core\Include</state>
+                    <state>$PROJ_DIR$\..\tinyusb\examples\device\hid_generic_inout\src</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_g0\Include</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32g0xx_hal_driver\Inc</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\bsp</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\bsp\stm32g0\boards\stm32g0b1nucleo</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\bsp\stm32g0</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -791,7 +791,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>$TUSB_DIR$\hw\mcu\st\cmsis_device_g0\Source\Templates\iar\linker\stm32g0b1xx_flash.icf</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_g0\Source\Templates\iar\linker\stm32g0b1xx_flash.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -1483,22 +1483,22 @@
                 <option>
                     <name>CCIncludePath2</name>
                     <state>$PROJ_DIR$\..</state>
-                    <state>$TUSB_DIR$/src</state>
-                    <state>$TUSB_DIR$\lib\SEGGER_RTT\RTT</state>
-                    <state>$TUSB_DIR$\lib\SEGGER_RTT\Config</state>
+                    <state>$PROJ_DIR$\..\tinyusb/src</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\SEGGER_RTT\RTT</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\SEGGER_RTT\Config</state>
                     <state>$PROJ_DIR$</state>
-                    <state>$TUSB_DIR$/hw</state>
-                    <state>$TUSB_DIR$\examples\device\uac2_headset\src</state>
-                    <state>$TUSB_DIR$\hw\mcu\nxp\mcux-sdk\devices\LPC55S69</state>
-                    <state>$TUSB_DIR$\hw\bsp\lpc55\boards\lpcxpresso55s69</state>
-                    <state>$TUSB_DIR$\lib\CMSIS_5\CMSIS\Core\Include</state>
-                    <state>$TUSB_DIR$\hw\mcu\nxp\mcux-sdk\drivers</state>
-                    <state>$TUSB_DIR$\hw\mcu\nxp\mcux-sdk\drivers\common</state>
-                    <state>$TUSB_DIR$\hw\mcu\nxp\mcux-sdk\drivers\lpc_gpio</state>
-                    <state>$TUSB_DIR$\hw\mcu\nxp\mcux-sdk\drivers\lpc_iocon</state>
-                    <state>$TUSB_DIR$\hw\mcu\nxp\mcux-sdk\drivers\flexcomm</state>
-                    <state>$TUSB_DIR$\hw\mcu\nxp\mcux-sdk\drivers\sctimer</state>
-                    <state>$TUSB_DIR$\hw\mcu\nxp\mcux-sdk\devices\LPC55S69\drivers</state>
+                    <state>$PROJ_DIR$\..\tinyusb/hw</state>
+                    <state>$PROJ_DIR$\..\tinyusb\examples\device\uac2_headset\src</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\nxp\mcux-sdk\devices\LPC55S69</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\bsp\lpc55\boards\lpcxpresso55s69</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\CMSIS_5\CMSIS\Core\Include</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\nxp\mcux-sdk\drivers</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\nxp\mcux-sdk\drivers\common</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\nxp\mcux-sdk\drivers\lpc_gpio</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\nxp\mcux-sdk\drivers\lpc_iocon</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\nxp\mcux-sdk\drivers\flexcomm</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\nxp\mcux-sdk\drivers\sctimer</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\nxp\mcux-sdk\devices\LPC55S69\drivers</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -2610,17 +2610,17 @@
                 <option>
                     <name>CCIncludePath2</name>
                     <state>$PROJ_DIR$\..</state>
-                    <state>$TUSB_DIR$/src</state>
-                    <state>$TUSB_DIR$\lib\SEGGER_RTT\RTT</state>
-                    <state>$TUSB_DIR$\lib\SEGGER_RTT\Config</state>
+                    <state>$PROJ_DIR$\..\tinyusb/src</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\SEGGER_RTT\RTT</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\SEGGER_RTT\Config</state>
                     <state>$PROJ_DIR$</state>
-                    <state>$TUSB_DIR$/hw</state>
-                    <state>$TUSB_DIR$\lib\CMSIS_5\CMSIS\Core\Include</state>
-                    <state>$TUSB_DIR$\examples\device\audio_4_channel_mic\src</state>
-                    <state>$TUSB_DIR$\hw\mcu\st\cmsis_device_f4\Include</state>
-                    <state>$TUSB_DIR$\hw\mcu\st\stm32f4xx_hal_driver\Inc</state>
+                    <state>$PROJ_DIR$\..\tinyusb/hw</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\CMSIS_5\CMSIS\Core\Include</state>
+                    <state>$PROJ_DIR$\..\tinyusb\examples\device\audio_4_channel_mic\src</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_f4\Include</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f4xx_hal_driver\Inc</state>
                     <state>$PROJ_DIR$\..\stm32f4x9-dk-a</state>
-                    <state>$TUSB_DIR$\hw\bsp\stm32f4</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\bsp\stm32f4</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -3040,7 +3040,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>$TUSB_DIR$\hw\mcu\st\cmsis_device_f4\Source\Templates\iar\linker\stm32f429xx_flash.icf</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_f4\Source\Templates\iar\linker\stm32f429xx_flash.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -3731,21 +3731,21 @@
                 <option>
                     <name>CCIncludePath2</name>
                     <state>$PROJ_DIR$\..</state>
-                    <state>$TUSB_DIR$/src</state>
-                    <state>$TUSB_DIR$\lib\SEGGER_RTT\RTT</state>
-                    <state>$TUSB_DIR$\lib\SEGGER_RTT\Config</state>
+                    <state>$PROJ_DIR$\..\tinyusb/src</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\SEGGER_RTT\RTT</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\SEGGER_RTT\Config</state>
                     <state>$PROJ_DIR$</state>
-                    <state>$TUSB_DIR$/hw</state>
-                    <state>$TUSB_DIR$\lib\CMSIS_5\CMSIS\Core\Include</state>
-                    <state>$TUSB_DIR$\hw\mcu\st\cmsis_device_f4\Include</state>
-                    <state>$TUSB_DIR$\hw\mcu\st\stm32f4xx_hal_driver\Inc</state>
-                    <state>$TUSB_DIR$\hw\bsp\stm32f4</state>
+                    <state>$PROJ_DIR$\..\tinyusb/hw</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\CMSIS_5\CMSIS\Core\Include</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_f4\Include</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f4xx_hal_driver\Inc</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\bsp\stm32f4</state>
                     <state>$PROJ_DIR$\..\stm32f407-disco</state>
-                    <state>$TUSB_DIR$\examples\device\audio_4_channel_mic\src</state>
-                    <state>$TUSB_DIR$/lib/lwip/src/include</state>
-                    <state>$TUSB_DIR$/lib/lwip/src/include/ipv4</state>
-                    <state>$TUSB_DIR$/lib/lwip/src/include/lwip/apps</state>
-                    <state>$TUSB_DIR$/lib/networking</state>
+                    <state>$PROJ_DIR$\..\tinyusb\examples\device\audio_4_channel_mic\src</state>
+                    <state>$PROJ_DIR$\..\tinyusb/lib/lwip/src/include</state>
+                    <state>$PROJ_DIR$\..\tinyusb/lib/lwip/src/include/ipv4</state>
+                    <state>$PROJ_DIR$\..\tinyusb/lib/lwip/src/include/lwip/apps</state>
+                    <state>$PROJ_DIR$\..\tinyusb/lib/networking</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -4165,7 +4165,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>$TUSB_DIR$\hw\mcu\st\cmsis_device_f4\Source\Templates\iar\linker\stm32f407xx_flash.icf</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_f4\Source\Templates\iar\linker\stm32f407xx_flash.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -4854,18 +4854,18 @@
                 <option>
                     <name>CCIncludePath2</name>
                     <state>$PROJ_DIR$\..</state>
-                    <state>$TUSB_DIR$/src</state>
-                    <state>$TUSB_DIR$\lib\SEGGER_RTT\RTT</state>
-                    <state>$TUSB_DIR$\lib\SEGGER_RTT\Config</state>
+                    <state>$PROJ_DIR$\..\tinyusb/src</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\SEGGER_RTT\RTT</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\SEGGER_RTT\Config</state>
                     <state>$PROJ_DIR$</state>
-                    <state>$TUSB_DIR$/hw</state>
-                    <state>$TUSB_DIR$\lib\CMSIS_5\CMSIS\Core\Include</state>
-                    <state>$TUSB_DIR$\examples\device\video_capture\src</state>
-                    <state>$TUSB_DIR$\hw\mcu\st\cmsis_device_l0\Include</state>
-                    <state>$TUSB_DIR$\hw\mcu\st\stm32l0xx_hal_driver\Inc</state>
-                    <state>$TUSB_DIR$\hw\bsp</state>
-                    <state>$TUSB_DIR$\hw\bsp\stm32l0\boards\stm32l0538disco</state>
-                    <state>$TUSB_DIR$\hw\bsp\stm32l0</state>
+                    <state>$PROJ_DIR$\..\tinyusb/hw</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\CMSIS_5\CMSIS\Core\Include</state>
+                    <state>$PROJ_DIR$\..\tinyusb\examples\device\video_capture\src</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_l0\Include</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32l0xx_hal_driver\Inc</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\bsp</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\bsp\stm32l0\boards\stm32l0538disco</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\bsp\stm32l0</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -5285,7 +5285,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>$TUSB_DIR$\hw\mcu\st\cmsis_device_l0\Source\Templates\iar\linker\stm32l053xx_flash.icf</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_l0\Source\Templates\iar\linker\stm32l053xx_flash.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -5973,18 +5973,18 @@
                 <option>
                     <name>CCIncludePath2</name>
                     <state>$PROJ_DIR$\..</state>
-                    <state>$TUSB_DIR$/src</state>
-                    <state>$TUSB_DIR$\lib\SEGGER_RTT\RTT</state>
-                    <state>$TUSB_DIR$\lib\SEGGER_RTT\Config</state>
+                    <state>$PROJ_DIR$\..\tinyusb/src</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\SEGGER_RTT\RTT</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\SEGGER_RTT\Config</state>
                     <state>$PROJ_DIR$</state>
-                    <state>$TUSB_DIR$/hw</state>
-                    <state>$TUSB_DIR$\lib\CMSIS_5\CMSIS\Core\Include</state>
-                    <state>$TUSB_DIR$\examples\device\uac2_headset\src</state>
-                    <state>$TUSB_DIR$\hw\mcu\st\cmsis_device_h5\Include</state>
-                    <state>$TUSB_DIR$\hw\mcu\st\stm32h5xx_hal_driver\Inc</state>
-                    <state>$TUSB_DIR$\hw\bsp</state>
-                    <state>$TUSB_DIR$\hw\bsp\stm32h5\boards\stm32h573i_dk</state>
-                    <state>$TUSB_DIR$\hw\bsp\stm32h5</state>
+                    <state>$PROJ_DIR$\..\tinyusb/hw</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\CMSIS_5\CMSIS\Core\Include</state>
+                    <state>$PROJ_DIR$\..\tinyusb\examples\device\uac2_headset\src</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_h5\Include</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32h5xx_hal_driver\Inc</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\bsp</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\bsp\stm32h5\boards\stm32h573i_dk</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\bsp\stm32h5</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -6404,7 +6404,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>$TUSB_DIR$\hw\mcu\st\cmsis_device_g0\Source\Templates\iar\linker\stm32g0b1xx_flash.icf</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_g0\Source\Templates\iar\linker\stm32g0b1xx_flash.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -7097,22 +7097,22 @@
                 <option>
                     <name>CCIncludePath2</name>
                     <state>$PROJ_DIR$\..</state>
-                    <state>$TUSB_DIR$/src</state>
+                    <state>$PROJ_DIR$\..\tinyusb/src</state>
                     <state>$PROJ_DIR$\..\stm32f723e-disco</state>
-                    <state>$TUSB_DIR$\lib\SEGGER_RTT\RTT</state>
-                    <state>$TUSB_DIR$\lib\SEGGER_RTT\Config</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\SEGGER_RTT\RTT</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\SEGGER_RTT\Config</state>
                     <state>$PROJ_DIR$</state>
-                    <state>$TUSB_DIR$/hw</state>
-                    <state>$TUSB_DIR$\lib\CMSIS_5\CMSIS\Core\Include</state>
-                    <state>$TUSB_DIR$\hw\mcu\st\cmsis_device_f7\Include</state>
-                    <state>$TUSB_DIR$\hw\mcu\st\stm32f7xx_hal_driver\Inc</state>
-                    <state>$TUSB_DIR$\hw\bsp\stm32f7</state>
-                    <state>$TUSB_DIR$\hw\bsp\stm32f7\boards\stm32f723disco</state>
-                    <state>$TUSB_DIR$\examples\device\cdc_dual_ports\src</state>
-                    <state>$TUSB_DIR$/lib/lwip/src/include</state>
-                    <state>$TUSB_DIR$/lib/lwip/src/include/ipv4</state>
-                    <state>$TUSB_DIR$/lib/lwip/src/include/lwip/apps</state>
-                    <state>$TUSB_DIR$/lib/networking</state>
+                    <state>$PROJ_DIR$\..\tinyusb/hw</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\CMSIS_5\CMSIS\Core\Include</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_f7\Include</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f7xx_hal_driver\Inc</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\bsp\stm32f7</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\bsp\stm32f7\boards\stm32f723disco</state>
+                    <state>$PROJ_DIR$\..\tinyusb\examples\device\cdc_dual_ports\src</state>
+                    <state>$PROJ_DIR$\..\tinyusb/lib/lwip/src/include</state>
+                    <state>$PROJ_DIR$\..\tinyusb/lib/lwip/src/include/ipv4</state>
+                    <state>$PROJ_DIR$\..\tinyusb/lib/lwip/src/include/lwip/apps</state>
+                    <state>$PROJ_DIR$\..\tinyusb/lib/networking</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -7532,7 +7532,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>$TUSB_DIR$\hw\mcu\st\cmsis_device_f7\Source\Templates\iar\linker\stm32f723xx_flash.icf</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_f7\Source\Templates\iar\linker\stm32f723xx_flash.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -8223,17 +8223,17 @@
                 <option>
                     <name>CCIncludePath2</name>
                     <state>$PROJ_DIR$\..</state>
-                    <state>$TUSB_DIR$/src</state>
-                    <state>$TUSB_DIR$\lib\SEGGER_RTT\RTT</state>
-                    <state>$TUSB_DIR$\lib\SEGGER_RTT\Config</state>
+                    <state>$PROJ_DIR$\..\tinyusb/src</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\SEGGER_RTT\RTT</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\SEGGER_RTT\Config</state>
                     <state>$PROJ_DIR$</state>
-                    <state>$TUSB_DIR$/hw</state>
-                    <state>$TUSB_DIR$\lib\CMSIS_5\CMSIS\Core\Include</state>
-                    <state>$TUSB_DIR$\hw\mcu\st\cmsis_device_u5\Include</state>
-                    <state>$TUSB_DIR$\hw\mcu\st\stm32u5xx_hal_driver\Inc</state>
-                    <state>$TUSB_DIR$\hw\bsp\stm32u5</state>
-                    <state>$TUSB_DIR$\hw\bsp\stm32u5\boards\stm32u5a5nucleo</state>
-                    <state>$TUSB_DIR$\examples\device\uac2_speaker_fb\src</state>
+                    <state>$PROJ_DIR$\..\tinyusb/hw</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\CMSIS_5\CMSIS\Core\Include</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_u5\Include</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32u5xx_hal_driver\Inc</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\bsp\stm32u5</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\bsp\stm32u5\boards\stm32u5a5nucleo</state>
+                    <state>$PROJ_DIR$\..\tinyusb\examples\device\uac2_speaker_fb\src</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -8653,7 +8653,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>$TUSB_DIR$\hw\mcu\st\cmsis_device_u5\Source\Templates\iar\linker\stm32u5a5xx_flash.icf</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_u5\Source\Templates\iar\linker\stm32u5a5xx_flash.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -9347,22 +9347,22 @@
                 <option>
                     <name>CCIncludePath2</name>
                     <state>$PROJ_DIR$\..</state>
-                    <state>$TUSB_DIR$/src</state>
+                    <state>$PROJ_DIR$\..\tinyusb/src</state>
                     <state>$PROJ_DIR$\..\stm32f723e-disco</state>
-                    <state>$TUSB_DIR$\lib\SEGGER_RTT\RTT</state>
-                    <state>$TUSB_DIR$\lib\SEGGER_RTT\Config</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\SEGGER_RTT\RTT</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\SEGGER_RTT\Config</state>
                     <state>$PROJ_DIR$</state>
-                    <state>$TUSB_DIR$/hw</state>
-                    <state>$TUSB_DIR$\lib\CMSIS_5\CMSIS\Core\Include</state>
-                    <state>$TUSB_DIR$\hw\mcu\st\cmsis_device_f7\Include</state>
-                    <state>$TUSB_DIR$\hw\mcu\st\stm32f7xx_hal_driver\Inc</state>
-                    <state>$TUSB_DIR$\hw\bsp\stm32f7</state>
-                    <state>$TUSB_DIR$\hw\bsp\stm32f7\boards\stm32f723disco</state>
-                    <state>$TUSB_DIR$\examples\device\cdc_dual_ports\src</state>
-                    <state>$TUSB_DIR$/lib/lwip/src/include</state>
-                    <state>$TUSB_DIR$/lib/lwip/src/include/ipv4</state>
-                    <state>$TUSB_DIR$/lib/lwip/src/include/lwip/apps</state>
-                    <state>$TUSB_DIR$/lib/networking</state>
+                    <state>$PROJ_DIR$\..\tinyusb/hw</state>
+                    <state>$PROJ_DIR$\..\tinyusb\lib\CMSIS_5\CMSIS\Core\Include</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_f7\Include</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f7xx_hal_driver\Inc</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\bsp\stm32f7</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\bsp\stm32f7\boards\stm32f723disco</state>
+                    <state>$PROJ_DIR$\..\tinyusb\examples\device\cdc_dual_ports\src</state>
+                    <state>$PROJ_DIR$\..\tinyusb/lib/lwip/src/include</state>
+                    <state>$PROJ_DIR$\..\tinyusb/lib/lwip/src/include/ipv4</state>
+                    <state>$PROJ_DIR$\..\tinyusb/lib/lwip/src/include/lwip/apps</state>
+                    <state>$PROJ_DIR$\..\tinyusb/lib/networking</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -9782,7 +9782,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>$TUSB_DIR$\hw\mcu\st\cmsis_device_f7\Source\Templates\iar\linker\stm32f723xx_flash.icf</state>
+                    <state>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_f7\Source\Templates\iar\linker\stm32f723xx_flash.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -10123,7 +10123,7 @@
             <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
         </excluded>
         <file>
-            <name>$TUSB_DIR$\hw\bsp\stm32f4\family.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\bsp\stm32f4\family.c</name>
             <excluded>
                 <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_LPC55</configuration>
@@ -10135,7 +10135,7 @@
             </excluded>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_f4\Source\Templates\iar\startup_stm32f407xx.s</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_f4\Source\Templates\iar\startup_stm32f407xx.s</name>
             <excluded>
                 <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_STM32F429_HSnoPhy</configuration>
@@ -10147,7 +10147,7 @@
             </excluded>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_f4\Source\Templates\iar\startup_stm32f429xx.s</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_f4\Source\Templates\iar\startup_stm32f429xx.s</name>
             <excluded>
                 <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_LPC55</configuration>
@@ -10160,7 +10160,7 @@
             </excluded>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_f4\Source\Templates\iar\linker\stm32f407xx_flash.icf</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_f4\Source\Templates\iar\linker\stm32f407xx_flash.icf</name>
             <excluded>
                 <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_STM32F429_HSnoPhy</configuration>
@@ -10172,7 +10172,7 @@
             </excluded>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_f4\Source\Templates\iar\linker\stm32f429xx_flash.icf</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_f4\Source\Templates\iar\linker\stm32f429xx_flash.icf</name>
             <excluded>
                 <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_LPC55</configuration>
@@ -10185,31 +10185,31 @@
             </excluded>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32f4xx_hal_driver\Src\stm32f4xx_hal.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f4xx_hal_driver\Src\stm32f4xx_hal.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32f4xx_hal_driver\Src\stm32f4xx_hal_cortex.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f4xx_hal_driver\Src\stm32f4xx_hal_cortex.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32f4xx_hal_driver\Src\stm32f4xx_hal_gpio.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f4xx_hal_driver\Src\stm32f4xx_hal_gpio.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32f4xx_hal_driver\Src\stm32f4xx_hal_pwr.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f4xx_hal_driver\Src\stm32f4xx_hal_pwr.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32f4xx_hal_driver\Src\stm32f4xx_hal_pwr_ex.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f4xx_hal_driver\Src\stm32f4xx_hal_pwr_ex.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32f4xx_hal_driver\Src\stm32f4xx_hal_rcc.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f4xx_hal_driver\Src\stm32f4xx_hal_rcc.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32f4xx_hal_driver\Src\stm32f4xx_hal_rcc_ex.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f4xx_hal_driver\Src\stm32f4xx_hal_rcc_ex.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32f4xx_hal_driver\Src\stm32f4xx_hal_uart.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f4xx_hal_driver\Src\stm32f4xx_hal_uart.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_f4\Source\Templates\system_stm32f4xx.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_f4\Source\Templates\system_stm32f4xx.c</name>
             <excluded>
                 <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_LPC55</configuration>
@@ -10254,7 +10254,7 @@
             </file>
         </group>
         <file>
-            <name>$TUSB_DIR$\hw\bsp\stm32f7\family.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\bsp\stm32f7\family.c</name>
             <excluded>
                 <configuration>TUSB_NUCLEO-U5A5</configuration>
             </excluded>
@@ -10267,52 +10267,52 @@
             </excluded>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_f7\Source\Templates\iar\startup_stm32f723xx.s</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_f7\Source\Templates\iar\startup_stm32f723xx.s</name>
             <excluded>
                 <configuration>TUSB_NUCLEO-U5A5</configuration>
             </excluded>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_f7\Source\Templates\iar\linker\stm32f723xx_flash.icf</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_f7\Source\Templates\iar\linker\stm32f723xx_flash.icf</name>
             <excluded>
                 <configuration>TUSB_NUCLEO-U5A5</configuration>
             </excluded>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32f7xx_hal_driver\Src\stm32f7xx_hal.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f7xx_hal_driver\Src\stm32f7xx_hal.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32f7xx_hal_driver\Src\stm32f7xx_hal_cortex.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f7xx_hal_driver\Src\stm32f7xx_hal_cortex.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32f7xx_hal_driver\Src\stm32f7xx_hal_dma.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f7xx_hal_driver\Src\stm32f7xx_hal_dma.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32f7xx_hal_driver\Src\stm32f7xx_hal_gpio.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f7xx_hal_driver\Src\stm32f7xx_hal_gpio.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32f7xx_hal_driver\Src\stm32f7xx_hal_i2c.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f7xx_hal_driver\Src\stm32f7xx_hal_i2c.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32f7xx_hal_driver\Src\stm32f7xx_hal_pwr.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f7xx_hal_driver\Src\stm32f7xx_hal_pwr.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32f7xx_hal_driver\Src\stm32f7xx_hal_pwr_ex.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f7xx_hal_driver\Src\stm32f7xx_hal_pwr_ex.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32f7xx_hal_driver\Src\stm32f7xx_hal_rcc.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f7xx_hal_driver\Src\stm32f7xx_hal_rcc.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32f7xx_hal_driver\Src\stm32f7xx_hal_rcc_ex.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f7xx_hal_driver\Src\stm32f7xx_hal_rcc_ex.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32f7xx_hal_driver\Src\stm32f7xx_hal_sai.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f7xx_hal_driver\Src\stm32f7xx_hal_sai.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32f7xx_hal_driver\Src\stm32f7xx_hal_uart.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32f7xx_hal_driver\Src\stm32f7xx_hal_uart.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_f7\Source\Templates\system_stm32f7xx.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_f7\Source\Templates\system_stm32f7xx.c</name>
             <excluded>
                 <configuration>TUSB_NUCLEO-U5A5</configuration>
             </excluded>
@@ -10331,7 +10331,7 @@
             <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
         </excluded>
         <file>
-            <name>$TUSB_DIR$\hw\bsp\stm32g0\family.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\bsp\stm32g0\family.c</name>
             <excluded>
                 <configuration>TUSB_LPC55</configuration>
                 <configuration>TUSB_STM32F429_HSnoPhy</configuration>
@@ -10344,7 +10344,7 @@
             </excluded>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_g0\Source\Templates\iar\startup_stm32g0b1xx.s</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_g0\Source\Templates\iar\startup_stm32g0b1xx.s</name>
             <excluded>
                 <configuration>TUSB_LPC55</configuration>
                 <configuration>TUSB_STM32F429_HSnoPhy</configuration>
@@ -10357,7 +10357,7 @@
             </excluded>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_g0\Source\Templates\iar\linker\stm32g0b1xx_flash.icf</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_g0\Source\Templates\iar\linker\stm32g0b1xx_flash.icf</name>
             <excluded>
                 <configuration>TUSB_LPC55</configuration>
                 <configuration>TUSB_STM32F429_HSnoPhy</configuration>
@@ -10370,31 +10370,31 @@
             </excluded>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32g0xx_hal_driver\Src\stm32g0xx_hal.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32g0xx_hal_driver\Src\stm32g0xx_hal.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32g0xx_hal_driver\Src\stm32g0xx_hal_cortex.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32g0xx_hal_driver\Src\stm32g0xx_hal_cortex.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32g0xx_hal_driver\Src\stm32g0xx_hal_gpio.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32g0xx_hal_driver\Src\stm32g0xx_hal_gpio.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32g0xx_hal_driver\Src\stm32g0xx_hal_pwr.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32g0xx_hal_driver\Src\stm32g0xx_hal_pwr.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32g0xx_hal_driver\Src\stm32g0xx_hal_pwr_ex.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32g0xx_hal_driver\Src\stm32g0xx_hal_pwr_ex.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32g0xx_hal_driver\Src\stm32g0xx_hal_rcc.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32g0xx_hal_driver\Src\stm32g0xx_hal_rcc.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32g0xx_hal_driver\Src\stm32g0xx_hal_rcc_ex.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32g0xx_hal_driver\Src\stm32g0xx_hal_rcc_ex.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32g0xx_hal_driver\Src\stm32g0xx_hal_uart.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32g0xx_hal_driver\Src\stm32g0xx_hal_uart.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_g0\Source\Templates\system_stm32g0xx.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_g0\Source\Templates\system_stm32g0xx.c</name>
             <excluded>
                 <configuration>TUSB_LPC55</configuration>
                 <configuration>TUSB_STM32F429_HSnoPhy</configuration>
@@ -10420,7 +10420,7 @@
             <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
         </excluded>
         <file>
-            <name>$TUSB_DIR$\hw\bsp\stm32h5\family.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\bsp\stm32h5\family.c</name>
             <excluded>
                 <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_STM32F4-DISCO</configuration>
@@ -10431,7 +10431,7 @@
             </excluded>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_h5\Source\Templates\iar\startup_stm32h573xx.s</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_h5\Source\Templates\iar\startup_stm32h573xx.s</name>
             <excluded>
                 <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_STM32F4-DISCO</configuration>
@@ -10442,7 +10442,7 @@
             </excluded>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_h5\Source\Templates\iar\linker\stm32h573xx_flash.icf</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_h5\Source\Templates\iar\linker\stm32h573xx_flash.icf</name>
             <excluded>
                 <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_STM32F4-DISCO</configuration>
@@ -10453,31 +10453,31 @@
             </excluded>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32h5xx_hal_driver\Src\stm32h5xx_hal.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32h5xx_hal_driver\Src\stm32h5xx_hal.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32h5xx_hal_driver\Src\stm32h5xx_hal_cortex.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32h5xx_hal_driver\Src\stm32h5xx_hal_cortex.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32h5xx_hal_driver\Src\stm32h5xx_hal_gpio.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32h5xx_hal_driver\Src\stm32h5xx_hal_gpio.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32h5xx_hal_driver\Src\stm32h5xx_hal_pwr.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32h5xx_hal_driver\Src\stm32h5xx_hal_pwr.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32h5xx_hal_driver\Src\stm32h5xx_hal_pwr_ex.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32h5xx_hal_driver\Src\stm32h5xx_hal_pwr_ex.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32h5xx_hal_driver\Src\stm32h5xx_hal_rcc.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32h5xx_hal_driver\Src\stm32h5xx_hal_rcc.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32h5xx_hal_driver\Src\stm32h5xx_hal_rcc_ex.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32h5xx_hal_driver\Src\stm32h5xx_hal_rcc_ex.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32h5xx_hal_driver\Src\stm32h5xx_hal_uart.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32h5xx_hal_driver\Src\stm32h5xx_hal_uart.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_h5\Source\Templates\system_stm32h5xx.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_h5\Source\Templates\system_stm32h5xx.c</name>
             <excluded>
                 <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_STM32F4-DISCO</configuration>
@@ -10501,7 +10501,7 @@
             <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
         </excluded>
         <file>
-            <name>$TUSB_DIR$\hw\bsp\stm32l0\family.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\bsp\stm32l0\family.c</name>
             <excluded>
                 <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_STM32F4-DISCO</configuration>
@@ -10512,7 +10512,7 @@
             </excluded>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_l0\Source\Templates\iar\startup_stm32l053xx.s</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_l0\Source\Templates\iar\startup_stm32l053xx.s</name>
             <excluded>
                 <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_STM32F4-DISCO</configuration>
@@ -10523,7 +10523,7 @@
             </excluded>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_l0\Source\Templates\iar\linker\stm32l053xx_flash.icf</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_l0\Source\Templates\iar\linker\stm32l053xx_flash.icf</name>
             <excluded>
                 <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_STM32F4-DISCO</configuration>
@@ -10534,31 +10534,31 @@
             </excluded>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32l0xx_hal_driver\Src\stm32l0xx_hal.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32l0xx_hal_driver\Src\stm32l0xx_hal.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32l0xx_hal_driver\Src\stm32l0xx_hal_cortex.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32l0xx_hal_driver\Src\stm32l0xx_hal_cortex.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32l0xx_hal_driver\Src\stm32l0xx_hal_gpio.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32l0xx_hal_driver\Src\stm32l0xx_hal_gpio.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32l0xx_hal_driver\Src\stm32l0xx_hal_pwr.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32l0xx_hal_driver\Src\stm32l0xx_hal_pwr.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32l0xx_hal_driver\Src\stm32l0xx_hal_pwr_ex.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32l0xx_hal_driver\Src\stm32l0xx_hal_pwr_ex.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32l0xx_hal_driver\Src\stm32l0xx_hal_rcc.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32l0xx_hal_driver\Src\stm32l0xx_hal_rcc.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32l0xx_hal_driver\Src\stm32l0xx_hal_rcc_ex.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32l0xx_hal_driver\Src\stm32l0xx_hal_rcc_ex.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32l0xx_hal_driver\Src\stm32l0xx_hal_uart.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32l0xx_hal_driver\Src\stm32l0xx_hal_uart.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_l0\Source\Templates\system_stm32l0xx.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_l0\Source\Templates\system_stm32l0xx.c</name>
             <excluded>
                 <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_STM32F4-DISCO</configuration>
@@ -10582,7 +10582,7 @@
             <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
         </excluded>
         <file>
-            <name>$TUSB_DIR$\hw\bsp\lpc55\family.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\bsp\lpc55\family.c</name>
             <excluded>
                 <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_STM32F429_HSnoPhy</configuration>
@@ -10595,28 +10595,28 @@
             </excluded>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\nxp\mcux-sdk\devices\LPC55S69\drivers\fsl_clock.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\nxp\mcux-sdk\devices\LPC55S69\drivers\fsl_clock.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\nxp\mcux-sdk\drivers\common\fsl_common.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\nxp\mcux-sdk\drivers\common\fsl_common.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\nxp\mcux-sdk\drivers\common\fsl_common_arm.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\nxp\mcux-sdk\drivers\common\fsl_common_arm.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\nxp\mcux-sdk\drivers\flexcomm\fsl_flexcomm.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\nxp\mcux-sdk\drivers\flexcomm\fsl_flexcomm.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\nxp\mcux-sdk\drivers\lpc_gpio\fsl_gpio.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\nxp\mcux-sdk\drivers\lpc_gpio\fsl_gpio.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\nxp\mcux-sdk\devices\LPC55S69\drivers\fsl_power.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\nxp\mcux-sdk\devices\LPC55S69\drivers\fsl_power.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\nxp\mcux-sdk\devices\LPC55S69\drivers\fsl_reset.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\nxp\mcux-sdk\devices\LPC55S69\drivers\fsl_reset.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\nxp\mcux-sdk\drivers\flexcomm\fsl_usart.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\nxp\mcux-sdk\drivers\flexcomm\fsl_usart.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\LPC55S69_cm33_core0_flash.icf</name>
@@ -10645,7 +10645,7 @@
             </excluded>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\nxp\mcux-sdk\devices\LPC55S69\system_LPC55S69_cm33_core0.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\nxp\mcux-sdk\devices\LPC55S69\system_LPC55S69_cm33_core0.c</name>
             <excluded>
                 <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_STM32F429_HSnoPhy</configuration>
@@ -10671,46 +10671,46 @@
             <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
         </excluded>
         <file>
-            <name>$TUSB_DIR$\hw\bsp\stm32u5\family.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\bsp\stm32u5\family.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_u5\Source\Templates\iar\startup_stm32u5a5xx.s</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_u5\Source\Templates\iar\startup_stm32u5a5xx.s</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_u5\Source\Templates\iar\linker\stm32u5a5xx_flash.icf</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_u5\Source\Templates\iar\linker\stm32u5a5xx_flash.icf</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal_cortex.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal_cortex.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal_dcache.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal_dcache.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal_gpio.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal_gpio.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal_icache.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal_icache.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal_pwr.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal_pwr.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal_pwr_ex.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal_pwr_ex.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal_rcc.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal_rcc.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal_rcc_ex.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal_rcc_ex.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal_uart.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\stm32u5xx_hal_driver\Src\stm32u5xx_hal_uart.c</name>
         </file>
         <file>
-            <name>$TUSB_DIR$\hw\mcu\st\cmsis_device_u5\Source\Templates\system_stm32u5xx.c</name>
+            <name>$PROJ_DIR$\..\tinyusb\hw\mcu\st\cmsis_device_u5\Source\Templates\system_stm32u5xx.c</name>
         </file>
     </group>
     <group>
@@ -10727,16 +10727,16 @@
                 <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
             </excluded>
             <file>
-                <name>$TUSB_DIR$\examples\device\audio_4_channel_mic\src\main.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\audio_4_channel_mic\src\main.c</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\audio_4_channel_mic\src\tusb_config.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\audio_4_channel_mic\src\tusb_config.h</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\audio_4_channel_mic\src\usb_descriptors.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\audio_4_channel_mic\src\usb_descriptors.c</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\audio_4_channel_mic\src\usb_descriptors.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\audio_4_channel_mic\src\usb_descriptors.h</name>
             </file>
         </group>
         <group>
@@ -10753,16 +10753,16 @@
                 <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
             </excluded>
             <file>
-                <name>$TUSB_DIR$\examples\device\audio_test_multi_rate\src\main.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\audio_test_multi_rate\src\main.c</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\audio_test_multi_rate\src\tusb_config.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\audio_test_multi_rate\src\tusb_config.h</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\audio_test_multi_rate\src\usb_descriptors.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\audio_test_multi_rate\src\usb_descriptors.c</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\audio_test_multi_rate\src\usb_descriptors.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\audio_test_multi_rate\src\usb_descriptors.h</name>
             </file>
         </group>
         <group>
@@ -10777,16 +10777,16 @@
                 <configuration>TUSB_NUCLEO-U5A5</configuration>
             </excluded>
             <file>
-                <name>$TUSB_DIR$\examples\device\cdc_dual_ports\src\main.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\cdc_dual_ports\src\main.c</name>
                 <excluded>
                     <configuration>TUSB_LPC55</configuration>
                 </excluded>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\cdc_dual_ports\src\tusb_config.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\cdc_dual_ports\src\tusb_config.h</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\cdc_dual_ports\src\usb_descriptors.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\cdc_dual_ports\src\usb_descriptors.c</name>
                 <excluded>
                     <configuration>TUSB_LPC55</configuration>
                 </excluded>
@@ -10806,7 +10806,7 @@
                 <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
             </excluded>
             <file>
-                <name>$TUSB_DIR$\examples\device\cdc_uac2\src\cdc_app.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\cdc_uac2\src\cdc_app.c</name>
                 <excluded>
                     <configuration>TUSB_STM32F4-DISCO</configuration>
                     <configuration>TUSB_STM32F723E-DISCO</configuration>
@@ -10815,7 +10815,7 @@
                 </excluded>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\cdc_uac2\src\main.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\cdc_uac2\src\main.c</name>
                 <excluded>
                     <configuration>TUSB_STM32F4-DISCO</configuration>
                     <configuration>TUSB_STM32F723E-DISCO</configuration>
@@ -10824,10 +10824,10 @@
                 </excluded>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\cdc_uac2\src\tusb_config.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\cdc_uac2\src\tusb_config.h</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\cdc_uac2\src\uac2_app.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\cdc_uac2\src\uac2_app.c</name>
                 <excluded>
                     <configuration>TUSB_STM32F4-DISCO</configuration>
                     <configuration>TUSB_STM32F723E-DISCO</configuration>
@@ -10836,7 +10836,7 @@
                 </excluded>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\cdc_uac2\src\usb_descriptors.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\cdc_uac2\src\usb_descriptors.c</name>
                 <excluded>
                     <configuration>TUSB_STM32F4-DISCO</configuration>
                     <configuration>TUSB_STM32F723E-DISCO</configuration>
@@ -10858,13 +10858,13 @@
                 <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
             </excluded>
             <file>
-                <name>$TUSB_DIR$\examples\device\hid_generic_inout\src\main.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\hid_generic_inout\src\main.c</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\hid_generic_inout\src\tusb_config.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\hid_generic_inout\src\tusb_config.h</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\hid_generic_inout\src\usb_descriptors.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\hid_generic_inout\src\usb_descriptors.c</name>
             </file>
         </group>
         <group>
@@ -10881,16 +10881,16 @@
                 <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
             </excluded>
             <file>
-                <name>$TUSB_DIR$\examples\device\net_lwip_webserver\src\lwipopts.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\net_lwip_webserver\src\lwipopts.h</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\net_lwip_webserver\src\main.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\net_lwip_webserver\src\main.c</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\net_lwip_webserver\src\tusb_config.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\net_lwip_webserver\src\tusb_config.h</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\net_lwip_webserver\src\usb_descriptors.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\net_lwip_webserver\src\usb_descriptors.c</name>
             </file>
         </group>
         <group>
@@ -10905,16 +10905,16 @@
                 <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
             </excluded>
             <file>
-                <name>$TUSB_DIR$\examples\device\uac2_headset\src\main.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\uac2_headset\src\main.c</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\uac2_headset\src\tusb_config.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\uac2_headset\src\tusb_config.h</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\uac2_headset\src\usb_descriptors.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\uac2_headset\src\usb_descriptors.c</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\uac2_headset\src\usb_descriptors.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\uac2_headset\src\usb_descriptors.h</name>
             </file>
         </group>
         <group>
@@ -10930,29 +10930,29 @@
                 <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
             </excluded>
             <file>
-                <name>$TUSB_DIR$\examples\device\uac2_speaker_fb\src\common_types.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\uac2_speaker_fb\src\common_types.h</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\uac2_speaker_fb\src\main.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\uac2_speaker_fb\src\main.c</name>
                 <excluded>
                     <configuration>TUSB_STM32F723E-DISCO</configuration>
                     <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
                 </excluded>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\uac2_speaker_fb\src\quirk_os_guessing.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\uac2_speaker_fb\src\quirk_os_guessing.c</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\uac2_speaker_fb\src\quirk_os_guessing.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\uac2_speaker_fb\src\quirk_os_guessing.h</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\uac2_speaker_fb\src\tusb_config.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\uac2_speaker_fb\src\tusb_config.h</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\uac2_speaker_fb\src\usb_descriptors.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\uac2_speaker_fb\src\usb_descriptors.c</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\uac2_speaker_fb\src\usb_descriptors.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\uac2_speaker_fb\src\usb_descriptors.h</name>
             </file>
         </group>
         <group>
@@ -10968,19 +10968,19 @@
                 <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
             </excluded>
             <file>
-                <name>$TUSB_DIR$\examples\device\video_capture\src\images.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\video_capture\src\images.h</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\video_capture\src\main.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\video_capture\src\main.c</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\video_capture\src\tusb_config.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\video_capture\src\tusb_config.h</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\video_capture\src\usb_descriptors.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\video_capture\src\usb_descriptors.c</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\video_capture\src\usb_descriptors.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\video_capture\src\usb_descriptors.h</name>
             </file>
         </group>
         <group>
@@ -10997,19 +10997,19 @@
                 <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
             </excluded>
             <file>
-                <name>$TUSB_DIR$\examples\device\video_capture_2ch\src\images.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\video_capture_2ch\src\images.h</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\video_capture_2ch\src\main.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\video_capture_2ch\src\main.c</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\video_capture_2ch\src\tusb_config.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\video_capture_2ch\src\tusb_config.h</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\video_capture_2ch\src\usb_descriptors.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\video_capture_2ch\src\usb_descriptors.c</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\video_capture_2ch\src\usb_descriptors.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\video_capture_2ch\src\usb_descriptors.h</name>
             </file>
         </group>
         <group>
@@ -11026,16 +11026,16 @@
                 <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
             </excluded>
             <file>
-                <name>$TUSB_DIR$\examples\device\webusb_serial\src\main.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\webusb_serial\src\main.c</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\webusb_serial\src\tusb_config.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\webusb_serial\src\tusb_config.h</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\webusb_serial\src\usb_descriptors.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\webusb_serial\src\usb_descriptors.c</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\examples\device\webusb_serial\src\usb_descriptors.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\examples\device\webusb_serial\src\usb_descriptors.h</name>
             </file>
         </group>
     </group>
@@ -11057,139 +11057,139 @@
                     <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
                 </excluded>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\altcp.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\altcp.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\altcp_alloc.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\altcp_alloc.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\altcp_tcp.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\altcp_tcp.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\ipv4\autoip.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\ipv4\autoip.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\def.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\def.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\ipv4\dhcp.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\ipv4\dhcp.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\ipv6\dhcp6.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\ipv6\dhcp6.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\networking\dhserver.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\networking\dhserver.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\dns.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\dns.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\networking\dnserver.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\networking\dnserver.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\ipv4\etharp.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\ipv4\etharp.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\netif\ethernet.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\netif\ethernet.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\ipv6\ethip6.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\ipv6\ethip6.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\apps\http\fs.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\apps\http\fs.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\apps\http\httpd.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\apps\http\httpd.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\ipv4\icmp.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\ipv4\icmp.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\ipv6\icmp6.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\ipv6\icmp6.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\ipv4\igmp.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\ipv4\igmp.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\ipv6\inet6.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\ipv6\inet6.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\inet_chksum.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\inet_chksum.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\init.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\init.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\ip.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\ip.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\ipv4\ip4.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\ipv4\ip4.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\ipv4\ip4_addr.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\ipv4\ip4_addr.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\ipv4\ip4_frag.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\ipv4\ip4_frag.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\ipv6\ip6.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\ipv6\ip6.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\ipv6\ip6_addr.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\ipv6\ip6_addr.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\ipv6\ip6_frag.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\ipv6\ip6_frag.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\apps\lwiperf\lwiperf.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\apps\lwiperf\lwiperf.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\mem.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\mem.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\memp.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\memp.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\ipv6\mld6.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\ipv6\mld6.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\ipv6\nd6.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\ipv6\nd6.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\netif.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\netif.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\pbuf.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\pbuf.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\raw.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\raw.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\networking\rndis_reports.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\networking\rndis_reports.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\netif\slipif.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\netif\slipif.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\stats.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\stats.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\sys.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\sys.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\tcp.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\tcp.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\tcp_in.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\tcp_in.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\tcp_out.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\tcp_out.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\timeouts.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\timeouts.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\lib\lwip\src\core\udp.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\lib\lwip\src\core\udp.c</name>
                 </file>
             </group>
             <group>
@@ -11197,24 +11197,24 @@
                 <group>
                     <name>Config</name>
                     <file>
-                        <name>$TUSB_DIR$\lib\SEGGER_RTT\Config\SEGGER_RTT_Conf.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\lib\SEGGER_RTT\Config\SEGGER_RTT_Conf.h</name>
                     </file>
                 </group>
                 <group>
                     <name>RTT</name>
                     <file>
-                        <name>$TUSB_DIR$\lib\SEGGER_RTT\RTT\SEGGER_RTT.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\lib\SEGGER_RTT\RTT\SEGGER_RTT.c</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\lib\SEGGER_RTT\RTT\SEGGER_RTT.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\lib\SEGGER_RTT\RTT\SEGGER_RTT.h</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\lib\SEGGER_RTT\RTT\SEGGER_RTT_printf.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\lib\SEGGER_RTT\RTT\SEGGER_RTT_printf.c</name>
                     </file>
                 </group>
             </group>
             <file>
-                <name>$TUSB_DIR$\hw\bsp\board.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\hw\bsp\board.c</name>
             </file>
         </group>
         <group>
@@ -11224,22 +11224,22 @@
                 <group>
                     <name>audio</name>
                     <file>
-                        <name>$TUSB_DIR$\src\class\audio\audio.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\audio\audio.h</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\audio\audio_device.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\audio\audio_device.c</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\audio\audio_device.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\audio\audio_device.h</name>
                     </file>
                 </group>
                 <group>
                     <name>bth</name>
                     <file>
-                        <name>$TUSB_DIR$\src\class\bth\bth_device.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\bth\bth_device.c</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\bth\bth_device.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\bth\bth_device.h</name>
                     </file>
                 </group>
                 <group>
@@ -11247,252 +11247,252 @@
                     <group>
                         <name>serial</name>
                         <file>
-                            <name>$TUSB_DIR$\src\class\cdc\serial\ch34x.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\class\cdc\serial\ch34x.h</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\class\cdc\serial\cp210x.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\class\cdc\serial\cp210x.h</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\class\cdc\serial\ftdi_sio.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\class\cdc\serial\ftdi_sio.h</name>
                         </file>
                     </group>
                     <file>
-                        <name>$TUSB_DIR$\src\class\cdc\cdc.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\cdc\cdc.h</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\cdc\cdc_device.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\cdc\cdc_device.c</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\cdc\cdc_device.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\cdc\cdc_device.h</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\cdc\cdc_host.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\cdc\cdc_host.c</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\cdc\cdc_host.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\cdc\cdc_host.h</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\cdc\cdc_rndis.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\cdc\cdc_rndis.h</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\cdc\cdc_rndis_host.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\cdc\cdc_rndis_host.c</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\cdc\cdc_rndis_host.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\cdc\cdc_rndis_host.h</name>
                     </file>
                 </group>
                 <group>
                     <name>dfu</name>
                     <file>
-                        <name>$TUSB_DIR$\src\class\dfu\dfu.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\dfu\dfu.h</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\dfu\dfu_device.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\dfu\dfu_device.c</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\dfu\dfu_device.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\dfu\dfu_device.h</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\dfu\dfu_rt_device.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\dfu\dfu_rt_device.c</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\dfu\dfu_rt_device.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\dfu\dfu_rt_device.h</name>
                     </file>
                 </group>
                 <group>
                     <name>hid</name>
                     <file>
-                        <name>$TUSB_DIR$\src\class\hid\hid.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\hid\hid.h</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\hid\hid_device.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\hid\hid_device.c</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\hid\hid_device.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\hid\hid_device.h</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\hid\hid_host.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\hid\hid_host.c</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\hid\hid_host.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\hid\hid_host.h</name>
                     </file>
                 </group>
                 <group>
                     <name>midi</name>
                     <file>
-                        <name>$TUSB_DIR$\src\class\midi\midi.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\midi\midi.h</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\midi\midi_device.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\midi\midi_device.c</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\midi\midi_device.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\midi\midi_device.h</name>
                     </file>
                 </group>
                 <group>
                     <name>msc</name>
                     <file>
-                        <name>$TUSB_DIR$\src\class\msc\msc.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\msc\msc.h</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\msc\msc_device.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\msc\msc_device.c</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\msc\msc_device.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\msc\msc_device.h</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\msc\msc_host.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\msc\msc_host.c</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\msc\msc_host.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\msc\msc_host.h</name>
                     </file>
                 </group>
                 <group>
                     <name>net</name>
                     <file>
-                        <name>$TUSB_DIR$\src\class\net\ecm_rndis_device.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\net\ecm_rndis_device.c</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\net\ncm.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\net\ncm.h</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\net\ncm_device.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\net\ncm_device.c</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\net\net_device.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\net\net_device.h</name>
                     </file>
                 </group>
                 <group>
                     <name>usbtmc</name>
                     <file>
-                        <name>$TUSB_DIR$\src\class\usbtmc\usbtmc.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\usbtmc\usbtmc.h</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\usbtmc\usbtmc_device.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\usbtmc\usbtmc_device.c</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\usbtmc\usbtmc_device.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\usbtmc\usbtmc_device.h</name>
                     </file>
                 </group>
                 <group>
                     <name>vendor</name>
                     <file>
-                        <name>$TUSB_DIR$\src\class\vendor\vendor_device.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\vendor\vendor_device.c</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\vendor\vendor_device.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\vendor\vendor_device.h</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\vendor\vendor_host.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\vendor\vendor_host.c</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\vendor\vendor_host.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\vendor\vendor_host.h</name>
                     </file>
                 </group>
                 <group>
                     <name>video</name>
                     <file>
-                        <name>$TUSB_DIR$\src\class\video\video.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\video\video.h</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\video\video_device.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\video\video_device.c</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\class\video\video_device.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\class\video\video_device.h</name>
                     </file>
                 </group>
             </group>
             <group>
                 <name>common</name>
                 <file>
-                    <name>$TUSB_DIR$\src\common\tusb_common.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\common\tusb_common.h</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\common\tusb_compiler.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\common\tusb_compiler.h</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\common\tusb_debug.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\common\tusb_debug.h</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\common\tusb_fifo.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\common\tusb_fifo.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\common\tusb_fifo.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\common\tusb_fifo.h</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\common\tusb_mcu.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\common\tusb_mcu.h</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\common\tusb_private.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\common\tusb_private.h</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\common\tusb_types.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\common\tusb_types.h</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\common\tusb_verify.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\common\tusb_verify.h</name>
                 </file>
             </group>
             <group>
                 <name>device</name>
                 <file>
-                    <name>$TUSB_DIR$\src\device\dcd.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\device\dcd.h</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\device\usbd.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\device\usbd.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\device\usbd.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\device\usbd.h</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\device\usbd_control.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\device\usbd_control.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\device\usbd_pvt.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\device\usbd_pvt.h</name>
                 </file>
             </group>
             <group>
                 <name>host</name>
                 <file>
-                    <name>$TUSB_DIR$\src\host\hcd.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\host\hcd.h</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\host\hub.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\host\hub.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\host\hub.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\host\hub.h</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\host\usbh.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\host\usbh.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\host\usbh.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\host\usbh.h</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\host\usbh_pvt.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\host\usbh_pvt.h</name>
                 </file>
             </group>
             <group>
                 <name>osal</name>
                 <file>
-                    <name>$TUSB_DIR$\src\osal\osal.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\osal\osal.h</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\osal\osal_freertos.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\osal\osal_freertos.h</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\osal\osal_mynewt.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\osal\osal_mynewt.h</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\osal\osal_none.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\osal\osal_none.h</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\osal\osal_pico.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\osal\osal_pico.h</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\osal\osal_rtthread.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\osal\osal_rtthread.h</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\osal\osal_rtx4.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\osal\osal_rtx4.h</name>
                 </file>
             </group>
             <group>
@@ -11502,7 +11502,7 @@
                     <group>
                         <name>max3421</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\analog\max3421\hcd_max3421.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\analog\max3421\hcd_max3421.c</name>
                         </file>
                     </group>
                 </group>
@@ -11511,7 +11511,7 @@
                     <group>
                         <name>ft9xx</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\bridgetek\ft9xx\dcd_ft9xx.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\bridgetek\ft9xx\dcd_ft9xx.c</name>
                         </file>
                     </group>
                 </group>
@@ -11520,37 +11520,37 @@
                     <group>
                         <name>ci_fs</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\chipidea\ci_fs\ci_fs_kinetis.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\chipidea\ci_fs\ci_fs_kinetis.h</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\chipidea\ci_fs\ci_fs_mcx.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\chipidea\ci_fs\ci_fs_mcx.h</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\chipidea\ci_fs\ci_fs_type.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\chipidea\ci_fs\ci_fs_type.h</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\chipidea\ci_fs\dcd_ci_fs.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\chipidea\ci_fs\dcd_ci_fs.c</name>
                         </file>
                     </group>
                     <group>
                         <name>ci_hs</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\chipidea\ci_hs\ci_hs_imxrt.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\chipidea\ci_hs\ci_hs_imxrt.h</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\chipidea\ci_hs\ci_hs_lpc18_43.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\chipidea\ci_hs\ci_hs_lpc18_43.h</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\chipidea\ci_hs\ci_hs_mcx.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\chipidea\ci_hs\ci_hs_mcx.h</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\chipidea\ci_hs\ci_hs_type.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\chipidea\ci_hs\ci_hs_type.h</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\chipidea\ci_hs\dcd_ci_hs.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\chipidea\ci_hs\dcd_ci_hs.c</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\chipidea\ci_hs\hcd_ci_hs.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\chipidea\ci_hs\hcd_ci_hs.c</name>
                         </file>
                     </group>
                 </group>
@@ -11559,20 +11559,20 @@
                     <group>
                         <name>da146xx</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\dialog\da146xx\dcd_da146xx.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\dialog\da146xx\dcd_da146xx.c</name>
                         </file>
                     </group>
                 </group>
                 <group>
                     <name>ehci</name>
                     <file>
-                        <name>$TUSB_DIR$\src\portable\ehci\ehci.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\portable\ehci\ehci.c</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\portable\ehci\ehci.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\portable\ehci\ehci.h</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\portable\ehci\ehci_api.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\portable\ehci\ehci_api.h</name>
                     </file>
                 </group>
                 <group>
@@ -11580,19 +11580,19 @@
                     <group>
                         <name>musb</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\mentor\musb\dcd_musb.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\mentor\musb\dcd_musb.c</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\mentor\musb\hcd_musb.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\mentor\musb\hcd_musb.c</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\mentor\musb\musb_msp432e.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\mentor\musb\musb_msp432e.h</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\mentor\musb\musb_tm4c.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\mentor\musb\musb_tm4c.h</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\mentor\musb\musb_type.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\mentor\musb\musb_type.h</name>
                         </file>
                     </group>
                 </group>
@@ -11601,37 +11601,37 @@
                     <group>
                         <name>pic</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\microchip\pic\dcd_pic.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\microchip\pic\dcd_pic.c</name>
                         </file>
                     </group>
                     <group>
                         <name>pic32mz</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\microchip\pic32mz\dcd_pic32mz.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\microchip\pic32mz\dcd_pic32mz.c</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\microchip\pic32mz\usbhs_registers.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\microchip\pic32mz\usbhs_registers.h</name>
                         </file>
                     </group>
                     <group>
                         <name>samd</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\microchip\samd\dcd_samd.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\microchip\samd\dcd_samd.c</name>
                         </file>
                     </group>
                     <group>
                         <name>samg</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\microchip\samg\dcd_samg.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\microchip\samg\dcd_samg.c</name>
                         </file>
                     </group>
                     <group>
                         <name>samx7x</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\microchip\samx7x\common_usb_regs.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\microchip\samx7x\common_usb_regs.h</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\microchip\samx7x\dcd_samx7x.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\microchip\samx7x\dcd_samx7x.c</name>
                         </file>
                     </group>
                 </group>
@@ -11640,7 +11640,7 @@
                     <group>
                         <name>mm32</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\mindmotion\mm32\dcd_mm32f327x_otg.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\mindmotion\mm32\dcd_mm32f327x_otg.c</name>
                         </file>
                     </group>
                 </group>
@@ -11649,7 +11649,7 @@
                     <group>
                         <name>nrf5x</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\nordic\nrf5x\dcd_nrf5x.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\nordic\nrf5x\dcd_nrf5x.c</name>
                         </file>
                     </group>
                 </group>
@@ -11658,19 +11658,19 @@
                     <group>
                         <name>nuc120</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\nuvoton\nuc120\dcd_nuc120.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\nuvoton\nuc120\dcd_nuc120.c</name>
                         </file>
                     </group>
                     <group>
                         <name>nuc121</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\nuvoton\nuc121\dcd_nuc121.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\nuvoton\nuc121\dcd_nuc121.c</name>
                         </file>
                     </group>
                     <group>
                         <name>nuc505</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\nuvoton\nuc505\dcd_nuc505.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\nuvoton\nuc505\dcd_nuc505.c</name>
                         </file>
                     </group>
                 </group>
@@ -11679,38 +11679,38 @@
                     <group>
                         <name>khci</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\nxp\khci\dcd_khci.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\nxp\khci\dcd_khci.c</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\nxp\khci\hcd_khci.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\nxp\khci\hcd_khci.c</name>
                         </file>
                     </group>
                     <group>
                         <name>lpc17_40</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\nxp\lpc17_40\dcd_lpc17_40.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\nxp\lpc17_40\dcd_lpc17_40.c</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\nxp\lpc17_40\dcd_lpc17_40.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\nxp\lpc17_40\dcd_lpc17_40.h</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\nxp\lpc17_40\hcd_lpc17_40.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\nxp\lpc17_40\hcd_lpc17_40.c</name>
                         </file>
                     </group>
                     <group>
                         <name>lpc_ip3511</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\nxp\lpc_ip3511\dcd_lpc_ip3511.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\nxp\lpc_ip3511\dcd_lpc_ip3511.c</name>
                         </file>
                     </group>
                 </group>
                 <group>
                     <name>ohci</name>
                     <file>
-                        <name>$TUSB_DIR$\src\portable\ohci\ohci.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\portable\ohci\ohci.c</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\portable\ohci\ohci.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\portable\ohci\ohci.h</name>
                     </file>
                 </group>
                 <group>
@@ -11718,25 +11718,25 @@
                     <group>
                         <name>pio_usb</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\raspberrypi\pio_usb\dcd_pio_usb.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\raspberrypi\pio_usb\dcd_pio_usb.c</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\raspberrypi\pio_usb\hcd_pio_usb.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\raspberrypi\pio_usb\hcd_pio_usb.c</name>
                         </file>
                     </group>
                     <group>
                         <name>rp2040</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\raspberrypi\rp2040\dcd_rp2040.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\raspberrypi\rp2040\hcd_rp2040.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\raspberrypi\rp2040\hcd_rp2040.c</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\raspberrypi\rp2040\rp2040_usb.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\raspberrypi\rp2040\rp2040_usb.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.h</name>
                         </file>
                     </group>
                 </group>
@@ -11745,22 +11745,22 @@
                     <group>
                         <name>rusb2</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\renesas\rusb2\dcd_rusb2.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\renesas\rusb2\dcd_rusb2.c</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\renesas\rusb2\hcd_rusb2.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\renesas\rusb2\hcd_rusb2.c</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\renesas\rusb2\rusb2_common.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\renesas\rusb2\rusb2_common.c</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\renesas\rusb2\rusb2_ra.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\renesas\rusb2\rusb2_ra.h</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\renesas\rusb2\rusb2_rx.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\renesas\rusb2\rusb2_rx.h</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\renesas\rusb2\rusb2_type.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\renesas\rusb2\rusb2_type.h</name>
                         </file>
                     </group>
                 </group>
@@ -11769,7 +11769,7 @@
                     <group>
                         <name>cxd56</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\sony\cxd56\dcd_cxd56.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\sony\cxd56\dcd_cxd56.c</name>
                         </file>
                     </group>
                 </group>
@@ -11778,26 +11778,26 @@
                     <group>
                         <name>stm32_fsdev</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\st\stm32_fsdev\dcd_stm32_fsdev.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\st\stm32_fsdev\dcd_stm32_fsdev.c</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\st\stm32_fsdev\dcd_stm32_fsdev.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\st\stm32_fsdev\dcd_stm32_fsdev.h</name>
                         </file>
                     </group>
                     <group>
                         <name>typec</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\st\typec\typec_stm32.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\st\typec\typec_stm32.c</name>
                         </file>
                     </group>
                 </group>
                 <group>
                     <name>sunxi</name>
                     <file>
-                        <name>$TUSB_DIR$\src\portable\sunxi\dcd_sunxi_musb.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\portable\sunxi\dcd_sunxi_musb.c</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\portable\sunxi\musb_def.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\portable\sunxi\musb_def.h</name>
                     </file>
                 </group>
                 <group>
@@ -11805,28 +11805,28 @@
                     <group>
                         <name>dwc2</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\synopsys\dwc2\dcd_dwc2.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\synopsys\dwc2\dcd_dwc2.c</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\synopsys\dwc2\dwc2_bcm.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\synopsys\dwc2\dwc2_bcm.h</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\synopsys\dwc2\dwc2_efm32.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\synopsys\dwc2\dwc2_efm32.h</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\synopsys\dwc2\dwc2_esp32.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\synopsys\dwc2\dwc2_esp32.h</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\synopsys\dwc2\dwc2_gd32.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\synopsys\dwc2\dwc2_gd32.h</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\synopsys\dwc2\dwc2_stm32.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\synopsys\dwc2\dwc2_stm32.h</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\synopsys\dwc2\dwc2_type.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\synopsys\dwc2\dwc2_type.h</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\synopsys\dwc2\dwc2_xmc.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\synopsys\dwc2\dwc2_xmc.h</name>
                         </file>
                     </group>
                 </group>
@@ -11835,7 +11835,7 @@
                     <group>
                         <name>msp430x5xx</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\ti\msp430x5xx\dcd_msp430x5xx.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\ti\msp430x5xx\dcd_msp430x5xx.c</name>
                         </file>
                     </group>
                 </group>
@@ -11844,49 +11844,49 @@
                     <group>
                         <name>eptri</name>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\valentyusb\eptri\dcd_eptri.c</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\valentyusb\eptri\dcd_eptri.c</name>
                         </file>
                         <file>
-                            <name>$TUSB_DIR$\src\portable\valentyusb\eptri\dcd_eptri.h</name>
+                            <name>$PROJ_DIR$\..\tinyusb\src\portable\valentyusb\eptri\dcd_eptri.h</name>
                         </file>
                     </group>
                 </group>
                 <group>
                     <name>wch</name>
                     <file>
-                        <name>$TUSB_DIR$\src\portable\wch\ch32_usbhs_reg.h</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\portable\wch\ch32_usbhs_reg.h</name>
                     </file>
                     <file>
-                        <name>$TUSB_DIR$\src\portable\wch\dcd_ch32_usbhs.c</name>
+                        <name>$PROJ_DIR$\..\tinyusb\src\portable\wch\dcd_ch32_usbhs.c</name>
                     </file>
                 </group>
             </group>
             <group>
                 <name>typec</name>
                 <file>
-                    <name>$TUSB_DIR$\src\typec\pd_types.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\typec\pd_types.h</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\typec\tcd.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\typec\tcd.h</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\typec\usbc.c</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\typec\usbc.c</name>
                 </file>
                 <file>
-                    <name>$TUSB_DIR$\src\typec\usbc.h</name>
+                    <name>$PROJ_DIR$\..\tinyusb\src\typec\usbc.h</name>
                 </file>
             </group>
             <file>
-                <name>$TUSB_DIR$\src\tusb.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\src\tusb.c</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\src\tusb.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\src\tusb.h</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\src\tusb_option.h</name>
+                <name>$PROJ_DIR$\..\tinyusb\src\tusb_option.h</name>
             </file>
             <file>
-                <name>$TUSB_DIR$\src\common\tusb_quirk.c</name>
+                <name>$PROJ_DIR$\..\tinyusb\src\common\tusb_quirk.c</name>
                 <excluded>
                     <configuration>TUSB_STM32G0</configuration>
                     <configuration>TUSB_LPC55</configuration>
