@@ -34,6 +34,10 @@
 #include "stm32f723e_discovery.h"
 #include "stm32f723e_discovery_audio.h"
 
+#ifdef CFG_QUIRK_OS_GUESSING
+#include "quirk_os_guessing.h"
+#endif
+
 //--------------------------------------------------------------------+
 // MACRO CONSTANT TYPEDEF PROTOTYPES
 //--------------------------------------------------------------------+
@@ -103,7 +107,7 @@ uint32_t fifo_count_avg;
 int main(void)
 {
   board_init();
-  
+
   // 80 volume is very loud !
   BSP_AUDIO_OUT_Init(OUTPUT_DEVICE_HEADPHONE, 70, I2S_AUDIOFREQ_48K);
   BSP_AUDIO_OUT_SetAudioFrameSlot(CODEC_AUDIOFRAME_SLOT_02);
@@ -118,7 +122,7 @@ int main(void)
 
   while (1)
   {
-    tud_task(); // TinyUSB device task
+
     led_blinking_task();
 #if CFG_AUDIO_DEBUG
     audio_debug_task();
@@ -179,7 +183,7 @@ void BSP_AUDIO_OUT_TransferComplete_CallBack(void)
   * @retval None
   */
 void BSP_AUDIO_OUT_HalfTransfer_CallBack(void)
-{ 
+{
   tud_audio_read(i2s_buffer, FRAME_SIZE/2);
 }
 
@@ -403,7 +407,7 @@ void tud_audio_feedback_params_cb(uint8_t func_id, uint8_t alt_itf, audio_feedba
 }
 
 #if CFG_AUDIO_DEBUG
-bool tud_audio_rx_done_post_read_cb(uint8_t rhport, uint16_t n_bytes_received, uint8_t func_id, uint8_t ep_out, uint8_t cur_alt_setting)
+bool tud_audio_rx_done_cb(uint8_t rhport, uint16_t n_bytes_received, uint8_t func_id, uint8_t ep_out, uint8_t cur_alt_setting)
 {
   (void)rhport;
   (void)func_id;
@@ -416,13 +420,18 @@ bool tud_audio_rx_done_post_read_cb(uint8_t rhport, uint16_t n_bytes_received, u
 
   return true;
 }
+
+bool tud_audio_rx_done_post_read_cb(uint8_t rhport, uint16_t n_bytes_received, uint8_t func_id, uint8_t ep_out, uint8_t cur_alt_setting)
+{
+  return tud_audio_rx_done_cb(rhport, n_bytes_received,func_id, ep_out, current_alt_settings);
+}
 #endif
 
-#if CFG_TUD_QUIRK_HOST_OS_HINT
+#if CFG_QUIRK_OS_GUESSING
 bool tud_audio_feedback_format_correction_cb(uint8_t func_id)
 {
   (void)func_id;
-  if(tud_speed_get() == TUSB_SPEED_FULL && tud_quirk_host_os_hint() == TUD_QUIRK_OS_HINT_OSX) {
+  if(tud_speed_get() == TUSB_SPEED_FULL && quirk_os_guessing_get() == QUIRK_OS_GUESSING_OSX) {
     return true;
   } else {
     return false;

@@ -11,7 +11,7 @@
             <name>General</name>
             <archiveVersion>3</archiveVersion>
             <data>
-                <version>36</version>
+                <version>37</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -98,7 +98,7 @@
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>35</state>
                 </option>
                 <option>
@@ -115,7 +115,7 @@
                 </option>
                 <option>
                     <name>CoreVariant</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>35</state>
                 </option>
                 <option>
@@ -138,7 +138,7 @@
                 </option>
                 <option>
                     <name>GFPUCoreSlave2</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>35</state>
                 </option>
                 <option>
@@ -213,8 +213,12 @@
                 </option>
                 <option>
                     <name>OG_32_64DeviceCoreSlave</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>35</state>
+                </option>
+                <option>
+                    <name>GOutputSo</name>
+                    <state>0</state>
                 </option>
             </data>
         </settings>
@@ -222,7 +226,7 @@
             <name>ICCARM</name>
             <archiveVersion>2</archiveVersion>
             <data>
-                <version>38</version>
+                <version>39</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -233,7 +237,7 @@
                     <name>CCDefines</name>
                     <state>STM32G0B1xx</state>
                     <state>CFG_TUSB_MCU=OPT_MCU_STM32G0</state>
-                    <state>CFG_TUSB_DEBUG=0</state>
+                    <state>CFG_TUSB_DEBUG=2</state>
                     <state>LOGGER_RTT</state>
                 </option>
                 <option>
@@ -362,7 +366,7 @@
                     <state>$PROJ_DIR$</state>
                     <state>$TUSB_DIR$/hw</state>
                     <state>$TUSB_DIR$\lib\CMSIS_5\CMSIS\Core\Include</state>
-                    <state>$TUSB_DIR$\examples\device\cdc_dual_ports\src</state>
+                    <state>$TUSB_DIR$\examples\device\hid_generic_inout\src</state>
                     <state>$TUSB_DIR$\hw\mcu\st\cmsis_device_g0\Include</state>
                     <state>$TUSB_DIR$\hw\mcu\st\stm32g0xx_hal_driver\Inc</state>
                     <state>$TUSB_DIR$\hw\bsp</state>
@@ -485,6 +489,14 @@
                 </option>
                 <option>
                     <name>CCBranchTargetIdentification</name>
+                    <state>0</state>
+                </option>
+                <option>
+                    <name>CCPosRadRwpi</name>
+                    <state>0</state>
+                </option>
+                <option>
+                    <name>CCPosSharedSlave</name>
                     <state>0</state>
                 </option>
             </data>
@@ -691,11 +703,10 @@
         </settings>
         <settings>
             <name>CUSTOM</name>
-            <archiveVersion>3</archiveVersion>
+            <archiveVersion>4</archiveVersion>
             <data>
                 <extensions></extensions>
                 <cmdline></cmdline>
-                <hasPrio>1</hasPrio>
                 <buildSequence>inputOutputBased</buildSequence>
             </data>
         </settings>
@@ -703,7 +714,7 @@
             <name>ILINK</name>
             <archiveVersion>0</archiveVersion>
             <data>
-                <version>27</version>
+                <version>28</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -1071,6 +1082,10 @@
                     <name>IlinkFpuProcessor</name>
                     <state>1</state>
                 </option>
+                <option>
+                    <name>IlinkSharedSlave</name>
+                    <state>0</state>
+                </option>
             </data>
         </settings>
         <settings>
@@ -1115,7 +1130,7 @@
             <name>General</name>
             <archiveVersion>3</archiveVersion>
             <data>
-                <version>36</version>
+                <version>37</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -1202,7 +1217,7 @@
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>61</state>
                 </option>
                 <option>
@@ -1219,7 +1234,7 @@
                 </option>
                 <option>
                     <name>CoreVariant</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>61</state>
                 </option>
                 <option>
@@ -1242,7 +1257,7 @@
                 </option>
                 <option>
                     <name>GFPUCoreSlave2</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>61</state>
                 </option>
                 <option>
@@ -1317,8 +1332,12 @@
                 </option>
                 <option>
                     <name>OG_32_64DeviceCoreSlave</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>61</state>
+                </option>
+                <option>
+                    <name>GOutputSo</name>
+                    <state>0</state>
                 </option>
             </data>
         </settings>
@@ -1326,7 +1345,7 @@
             <name>ICCARM</name>
             <archiveVersion>2</archiveVersion>
             <data>
-                <version>38</version>
+                <version>39</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -1599,6 +1618,14 @@
                     <name>CCBranchTargetIdentification</name>
                     <state>0</state>
                 </option>
+                <option>
+                    <name>CCPosRadRwpi</name>
+                    <state>0</state>
+                </option>
+                <option>
+                    <name>CCPosSharedSlave</name>
+                    <state>0</state>
+                </option>
             </data>
         </settings>
         <settings>
@@ -1803,11 +1830,10 @@
         </settings>
         <settings>
             <name>CUSTOM</name>
-            <archiveVersion>3</archiveVersion>
+            <archiveVersion>4</archiveVersion>
             <data>
                 <extensions></extensions>
                 <cmdline></cmdline>
-                <hasPrio>1</hasPrio>
                 <buildSequence>inputOutputBased</buildSequence>
             </data>
         </settings>
@@ -1815,7 +1841,7 @@
             <name>ILINK</name>
             <archiveVersion>0</archiveVersion>
             <data>
-                <version>27</version>
+                <version>28</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -2183,6 +2209,10 @@
                     <name>IlinkFpuProcessor</name>
                     <state>1</state>
                 </option>
+                <option>
+                    <name>IlinkSharedSlave</name>
+                    <state>0</state>
+                </option>
             </data>
         </settings>
         <settings>
@@ -2227,7 +2257,7 @@
             <name>General</name>
             <archiveVersion>3</archiveVersion>
             <data>
-                <version>36</version>
+                <version>37</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -2314,7 +2344,7 @@
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>39</state>
                 </option>
                 <option>
@@ -2331,7 +2361,7 @@
                 </option>
                 <option>
                     <name>CoreVariant</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>39</state>
                 </option>
                 <option>
@@ -2354,7 +2384,7 @@
                 </option>
                 <option>
                     <name>GFPUCoreSlave2</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>39</state>
                 </option>
                 <option>
@@ -2429,8 +2459,12 @@
                 </option>
                 <option>
                     <name>OG_32_64DeviceCoreSlave</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>39</state>
+                </option>
+                <option>
+                    <name>GOutputSo</name>
+                    <state>0</state>
                 </option>
             </data>
         </settings>
@@ -2438,7 +2472,7 @@
             <name>ICCARM</name>
             <archiveVersion>2</archiveVersion>
             <data>
-                <version>38</version>
+                <version>39</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -2706,6 +2740,14 @@
                     <name>CCBranchTargetIdentification</name>
                     <state>0</state>
                 </option>
+                <option>
+                    <name>CCPosRadRwpi</name>
+                    <state>0</state>
+                </option>
+                <option>
+                    <name>CCPosSharedSlave</name>
+                    <state>0</state>
+                </option>
             </data>
         </settings>
         <settings>
@@ -2910,11 +2952,10 @@
         </settings>
         <settings>
             <name>CUSTOM</name>
-            <archiveVersion>3</archiveVersion>
+            <archiveVersion>4</archiveVersion>
             <data>
                 <extensions></extensions>
                 <cmdline></cmdline>
-                <hasPrio>1</hasPrio>
                 <buildSequence>inputOutputBased</buildSequence>
             </data>
         </settings>
@@ -2922,7 +2963,7 @@
             <name>ILINK</name>
             <archiveVersion>0</archiveVersion>
             <data>
-                <version>27</version>
+                <version>28</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -3290,6 +3331,10 @@
                     <name>IlinkFpuProcessor</name>
                     <state>1</state>
                 </option>
+                <option>
+                    <name>IlinkSharedSlave</name>
+                    <state>0</state>
+                </option>
             </data>
         </settings>
         <settings>
@@ -3334,7 +3379,7 @@
             <name>General</name>
             <archiveVersion>3</archiveVersion>
             <data>
-                <version>36</version>
+                <version>37</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -3393,7 +3438,7 @@
                 </option>
                 <option>
                     <name>OGLastSavedByProductVersion</name>
-                    <state>9.50.1.69462</state>
+                    <state>9.60.2.5384</state>
                 </option>
                 <option>
                     <name>OGChipSelectEditMenu</name>
@@ -3421,7 +3466,7 @@
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>39</state>
                 </option>
                 <option>
@@ -3438,7 +3483,7 @@
                 </option>
                 <option>
                     <name>CoreVariant</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>39</state>
                 </option>
                 <option>
@@ -3461,7 +3506,7 @@
                 </option>
                 <option>
                     <name>GFPUCoreSlave2</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>39</state>
                 </option>
                 <option>
@@ -3536,8 +3581,12 @@
                 </option>
                 <option>
                     <name>OG_32_64DeviceCoreSlave</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>39</state>
+                </option>
+                <option>
+                    <name>GOutputSo</name>
+                    <state>0</state>
                 </option>
             </data>
         </settings>
@@ -3545,7 +3594,7 @@
             <name>ICCARM</name>
             <archiveVersion>2</archiveVersion>
             <data>
-                <version>38</version>
+                <version>39</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -3692,7 +3741,7 @@
                     <state>$TUSB_DIR$\hw\mcu\st\stm32f4xx_hal_driver\Inc</state>
                     <state>$TUSB_DIR$\hw\bsp\stm32f4</state>
                     <state>$PROJ_DIR$\..\stm32f407-disco</state>
-                    <state>$TUSB_DIR$\examples\device\net_lwip_webserver\src</state>
+                    <state>$TUSB_DIR$\examples\device\audio_4_channel_mic\src</state>
                     <state>$TUSB_DIR$/lib/lwip/src/include</state>
                     <state>$TUSB_DIR$/lib/lwip/src/include/ipv4</state>
                     <state>$TUSB_DIR$/lib/lwip/src/include/lwip/apps</state>
@@ -3814,6 +3863,14 @@
                 </option>
                 <option>
                     <name>CCBranchTargetIdentification</name>
+                    <state>0</state>
+                </option>
+                <option>
+                    <name>CCPosRadRwpi</name>
+                    <state>0</state>
+                </option>
+                <option>
+                    <name>CCPosSharedSlave</name>
                     <state>0</state>
                 </option>
             </data>
@@ -4020,11 +4077,10 @@
         </settings>
         <settings>
             <name>CUSTOM</name>
-            <archiveVersion>3</archiveVersion>
+            <archiveVersion>4</archiveVersion>
             <data>
                 <extensions></extensions>
                 <cmdline></cmdline>
-                <hasPrio>1</hasPrio>
                 <buildSequence>inputOutputBased</buildSequence>
             </data>
         </settings>
@@ -4032,7 +4088,7 @@
             <name>ILINK</name>
             <archiveVersion>0</archiveVersion>
             <data>
-                <version>27</version>
+                <version>28</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -4400,6 +4456,10 @@
                     <name>IlinkFpuProcessor</name>
                     <state>1</state>
                 </option>
+                <option>
+                    <name>IlinkSharedSlave</name>
+                    <state>0</state>
+                </option>
             </data>
         </settings>
         <settings>
@@ -4444,7 +4504,7 @@
             <name>General</name>
             <archiveVersion>3</archiveVersion>
             <data>
-                <version>36</version>
+                <version>37</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -4531,7 +4591,7 @@
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>35</state>
                 </option>
                 <option>
@@ -4548,7 +4608,7 @@
                 </option>
                 <option>
                     <name>CoreVariant</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>35</state>
                 </option>
                 <option>
@@ -4571,7 +4631,7 @@
                 </option>
                 <option>
                     <name>GFPUCoreSlave2</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>35</state>
                 </option>
                 <option>
@@ -4646,8 +4706,12 @@
                 </option>
                 <option>
                     <name>OG_32_64DeviceCoreSlave</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>35</state>
+                </option>
+                <option>
+                    <name>GOutputSo</name>
+                    <state>0</state>
                 </option>
             </data>
         </settings>
@@ -4655,7 +4719,7 @@
             <name>ICCARM</name>
             <archiveVersion>2</archiveVersion>
             <data>
-                <version>38</version>
+                <version>39</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -4729,7 +4793,7 @@
                 <option>
                     <name>CCAllowList</name>
                     <version>1</version>
-                    <state>00000000</state>
+                    <state>10010100</state>
                 </option>
                 <option>
                     <name>CCDebugInfo</name>
@@ -4796,7 +4860,7 @@
                     <state>$PROJ_DIR$</state>
                     <state>$TUSB_DIR$/hw</state>
                     <state>$TUSB_DIR$\lib\CMSIS_5\CMSIS\Core\Include</state>
-                    <state>$TUSB_DIR$\examples\device\video_capture_2ch\src</state>
+                    <state>$TUSB_DIR$\examples\device\video_capture\src</state>
                     <state>$TUSB_DIR$\hw\mcu\st\cmsis_device_l0\Include</state>
                     <state>$TUSB_DIR$\hw\mcu\st\stm32l0xx_hal_driver\Inc</state>
                     <state>$TUSB_DIR$\hw\bsp</state>
@@ -4817,16 +4881,16 @@
                 </option>
                 <option>
                     <name>CCOptLevel</name>
-                    <state>1</state>
+                    <state>2</state>
                 </option>
                 <option>
                     <name>CCOptStrategy</name>
                     <version>0</version>
-                    <state>2</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>CCOptLevelSlave</name>
-                    <state>1</state>
+                    <state>2</state>
                 </option>
                 <option>
                     <name>CCPosIndRopi</name>
@@ -4875,7 +4939,7 @@
                 <option>
                     <name>CCOptStrategySlave</name>
                     <version>0</version>
-                    <state>2</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>CCGuardCalls</name>
@@ -4919,6 +4983,14 @@
                 </option>
                 <option>
                     <name>CCBranchTargetIdentification</name>
+                    <state>0</state>
+                </option>
+                <option>
+                    <name>CCPosRadRwpi</name>
+                    <state>0</state>
+                </option>
+                <option>
+                    <name>CCPosSharedSlave</name>
                     <state>0</state>
                 </option>
             </data>
@@ -5125,11 +5197,10 @@
         </settings>
         <settings>
             <name>CUSTOM</name>
-            <archiveVersion>3</archiveVersion>
+            <archiveVersion>4</archiveVersion>
             <data>
                 <extensions></extensions>
                 <cmdline></cmdline>
-                <hasPrio>1</hasPrio>
                 <buildSequence>inputOutputBased</buildSequence>
             </data>
         </settings>
@@ -5137,7 +5208,7 @@
             <name>ILINK</name>
             <archiveVersion>0</archiveVersion>
             <data>
-                <version>27</version>
+                <version>28</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -5505,6 +5576,10 @@
                     <name>IlinkFpuProcessor</name>
                     <state>1</state>
                 </option>
+                <option>
+                    <name>IlinkSharedSlave</name>
+                    <state>0</state>
+                </option>
             </data>
         </settings>
         <settings>
@@ -5549,7 +5624,7 @@
             <name>General</name>
             <archiveVersion>3</archiveVersion>
             <data>
-                <version>36</version>
+                <version>37</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -5636,8 +5711,8 @@
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
-                    <version>33</version>
-                    <state>35</state>
+                    <version>34</version>
+                    <state>61</state>
                 </option>
                 <option>
                     <name>OGUseCmsis</name>
@@ -5653,7 +5728,7 @@
                 </option>
                 <option>
                     <name>CoreVariant</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>61</state>
                 </option>
                 <option>
@@ -5676,7 +5751,7 @@
                 </option>
                 <option>
                     <name>GFPUCoreSlave2</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>61</state>
                 </option>
                 <option>
@@ -5751,8 +5826,12 @@
                 </option>
                 <option>
                     <name>OG_32_64DeviceCoreSlave</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>61</state>
+                </option>
+                <option>
+                    <name>GOutputSo</name>
+                    <state>0</state>
                 </option>
             </data>
         </settings>
@@ -5760,7 +5839,7 @@
             <name>ICCARM</name>
             <archiveVersion>2</archiveVersion>
             <data>
-                <version>38</version>
+                <version>39</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -6025,6 +6104,14 @@
                     <name>CCBranchTargetIdentification</name>
                     <state>0</state>
                 </option>
+                <option>
+                    <name>CCPosRadRwpi</name>
+                    <state>0</state>
+                </option>
+                <option>
+                    <name>CCPosSharedSlave</name>
+                    <state>0</state>
+                </option>
             </data>
         </settings>
         <settings>
@@ -6215,7 +6302,7 @@
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state>TUSB_STM32G0.bin</state>
+                    <state>TUSB_Test.bin</state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>
@@ -6229,11 +6316,10 @@
         </settings>
         <settings>
             <name>CUSTOM</name>
-            <archiveVersion>3</archiveVersion>
+            <archiveVersion>4</archiveVersion>
             <data>
                 <extensions></extensions>
                 <cmdline></cmdline>
-                <hasPrio>1</hasPrio>
                 <buildSequence>inputOutputBased</buildSequence>
             </data>
         </settings>
@@ -6241,7 +6327,7 @@
             <name>ILINK</name>
             <archiveVersion>0</archiveVersion>
             <data>
-                <version>27</version>
+                <version>28</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -6609,6 +6695,10 @@
                     <name>IlinkFpuProcessor</name>
                     <state>1</state>
                 </option>
+                <option>
+                    <name>IlinkSharedSlave</name>
+                    <state>0</state>
+                </option>
             </data>
         </settings>
         <settings>
@@ -6653,7 +6743,7 @@
             <name>General</name>
             <archiveVersion>3</archiveVersion>
             <data>
-                <version>36</version>
+                <version>37</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -6712,7 +6802,7 @@
                 </option>
                 <option>
                     <name>OGLastSavedByProductVersion</name>
-                    <state>9.50.1.69462</state>
+                    <state>9.60.2.5384</state>
                 </option>
                 <option>
                     <name>OGChipSelectEditMenu</name>
@@ -6740,7 +6830,7 @@
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>41</state>
                 </option>
                 <option>
@@ -6757,7 +6847,7 @@
                 </option>
                 <option>
                     <name>CoreVariant</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>41</state>
                 </option>
                 <option>
@@ -6780,7 +6870,7 @@
                 </option>
                 <option>
                     <name>GFPUCoreSlave2</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>41</state>
                 </option>
                 <option>
@@ -6855,8 +6945,12 @@
                 </option>
                 <option>
                     <name>OG_32_64DeviceCoreSlave</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>41</state>
+                </option>
+                <option>
+                    <name>GOutputSo</name>
+                    <state>0</state>
                 </option>
             </data>
         </settings>
@@ -6864,7 +6958,7 @@
             <name>ICCARM</name>
             <archiveVersion>2</archiveVersion>
             <data>
-                <version>38</version>
+                <version>39</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -6942,7 +7036,7 @@
                 <option>
                     <name>CCAllowList</name>
                     <version>1</version>
-                    <state>10010100</state>
+                    <state>11111110</state>
                 </option>
                 <option>
                     <name>CCDebugInfo</name>
@@ -7034,7 +7128,7 @@
                 </option>
                 <option>
                     <name>CCOptLevel</name>
-                    <state>2</state>
+                    <state>3</state>
                 </option>
                 <option>
                     <name>CCOptStrategy</name>
@@ -7043,7 +7137,7 @@
                 </option>
                 <option>
                     <name>CCOptLevelSlave</name>
-                    <state>2</state>
+                    <state>3</state>
                 </option>
                 <option>
                     <name>CCPosIndRopi</name>
@@ -7136,6 +7230,14 @@
                 </option>
                 <option>
                     <name>CCBranchTargetIdentification</name>
+                    <state>0</state>
+                </option>
+                <option>
+                    <name>CCPosRadRwpi</name>
+                    <state>0</state>
+                </option>
+                <option>
+                    <name>CCPosSharedSlave</name>
                     <state>0</state>
                 </option>
             </data>
@@ -7342,11 +7444,10 @@
         </settings>
         <settings>
             <name>CUSTOM</name>
-            <archiveVersion>3</archiveVersion>
+            <archiveVersion>4</archiveVersion>
             <data>
                 <extensions></extensions>
                 <cmdline></cmdline>
-                <hasPrio>1</hasPrio>
                 <buildSequence>inputOutputBased</buildSequence>
             </data>
         </settings>
@@ -7354,7 +7455,7 @@
             <name>ILINK</name>
             <archiveVersion>0</archiveVersion>
             <data>
-                <version>27</version>
+                <version>28</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -7722,6 +7823,10 @@
                     <name>IlinkFpuProcessor</name>
                     <state>1</state>
                 </option>
+                <option>
+                    <name>IlinkSharedSlave</name>
+                    <state>0</state>
+                </option>
             </data>
         </settings>
         <settings>
@@ -7766,7 +7871,7 @@
             <name>General</name>
             <archiveVersion>3</archiveVersion>
             <data>
-                <version>36</version>
+                <version>37</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -7825,7 +7930,7 @@
                 </option>
                 <option>
                     <name>OGLastSavedByProductVersion</name>
-                    <state>9.50.1.69462</state>
+                    <state>9.60.2.5384</state>
                 </option>
                 <option>
                     <name>OGChipSelectEditMenu</name>
@@ -7853,7 +7958,7 @@
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>61</state>
                 </option>
                 <option>
@@ -7870,7 +7975,7 @@
                 </option>
                 <option>
                     <name>CoreVariant</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>61</state>
                 </option>
                 <option>
@@ -7893,7 +7998,7 @@
                 </option>
                 <option>
                     <name>GFPUCoreSlave2</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>61</state>
                 </option>
                 <option>
@@ -7968,8 +8073,12 @@
                 </option>
                 <option>
                     <name>OG_32_64DeviceCoreSlave</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>61</state>
+                </option>
+                <option>
+                    <name>GOutputSo</name>
+                    <state>0</state>
                 </option>
             </data>
         </settings>
@@ -7977,7 +8086,7 @@
             <name>ICCARM</name>
             <archiveVersion>2</archiveVersion>
             <data>
-                <version>38</version>
+                <version>39</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -8124,7 +8233,7 @@
                     <state>$TUSB_DIR$\hw\mcu\st\stm32u5xx_hal_driver\Inc</state>
                     <state>$TUSB_DIR$\hw\bsp\stm32u5</state>
                     <state>$TUSB_DIR$\hw\bsp\stm32u5\boards\stm32u5a5nucleo</state>
-                    <state>$TUSB_DIR$\examples\device\hid_generic_inout\src</state>
+                    <state>$TUSB_DIR$\examples\device\uac2_speaker_fb\src</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -8242,6 +8351,14 @@
                 </option>
                 <option>
                     <name>CCBranchTargetIdentification</name>
+                    <state>0</state>
+                </option>
+                <option>
+                    <name>CCPosRadRwpi</name>
+                    <state>0</state>
+                </option>
+                <option>
+                    <name>CCPosSharedSlave</name>
                     <state>0</state>
                 </option>
             </data>
@@ -8448,11 +8565,10 @@
         </settings>
         <settings>
             <name>CUSTOM</name>
-            <archiveVersion>3</archiveVersion>
+            <archiveVersion>4</archiveVersion>
             <data>
                 <extensions></extensions>
                 <cmdline></cmdline>
-                <hasPrio>1</hasPrio>
                 <buildSequence>inputOutputBased</buildSequence>
             </data>
         </settings>
@@ -8460,7 +8576,7 @@
             <name>ILINK</name>
             <archiveVersion>0</archiveVersion>
             <data>
-                <version>27</version>
+                <version>28</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -8828,6 +8944,10 @@
                     <name>IlinkFpuProcessor</name>
                     <state>1</state>
                 </option>
+                <option>
+                    <name>IlinkSharedSlave</name>
+                    <state>0</state>
+                </option>
             </data>
         </settings>
         <settings>
@@ -8872,7 +8992,7 @@
             <name>General</name>
             <archiveVersion>3</archiveVersion>
             <data>
-                <version>36</version>
+                <version>37</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -8931,7 +9051,7 @@
                 </option>
                 <option>
                     <name>OGLastSavedByProductVersion</name>
-                    <state>9.50.1.69462</state>
+                    <state>9.60.2.5384</state>
                 </option>
                 <option>
                     <name>OGChipSelectEditMenu</name>
@@ -8959,7 +9079,7 @@
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>41</state>
                 </option>
                 <option>
@@ -8976,7 +9096,7 @@
                 </option>
                 <option>
                     <name>CoreVariant</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>41</state>
                 </option>
                 <option>
@@ -8999,7 +9119,7 @@
                 </option>
                 <option>
                     <name>GFPUCoreSlave2</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>41</state>
                 </option>
                 <option>
@@ -9074,8 +9194,12 @@
                 </option>
                 <option>
                     <name>OG_32_64DeviceCoreSlave</name>
-                    <version>33</version>
+                    <version>34</version>
                     <state>41</state>
+                </option>
+                <option>
+                    <name>GOutputSo</name>
+                    <state>0</state>
                 </option>
             </data>
         </settings>
@@ -9083,7 +9207,7 @@
             <name>ICCARM</name>
             <archiveVersion>2</archiveVersion>
             <data>
-                <version>38</version>
+                <version>39</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -9162,7 +9286,7 @@
                 <option>
                     <name>CCAllowList</name>
                     <version>1</version>
-                    <state>10010100</state>
+                    <state>00000000</state>
                 </option>
                 <option>
                     <name>CCDebugInfo</name>
@@ -9254,7 +9378,7 @@
                 </option>
                 <option>
                     <name>CCOptLevel</name>
-                    <state>2</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>CCOptStrategy</name>
@@ -9263,7 +9387,7 @@
                 </option>
                 <option>
                     <name>CCOptLevelSlave</name>
-                    <state>2</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>CCPosIndRopi</name>
@@ -9356,6 +9480,14 @@
                 </option>
                 <option>
                     <name>CCBranchTargetIdentification</name>
+                    <state>0</state>
+                </option>
+                <option>
+                    <name>CCPosRadRwpi</name>
+                    <state>0</state>
+                </option>
+                <option>
+                    <name>CCPosSharedSlave</name>
                     <state>0</state>
                 </option>
             </data>
@@ -9562,11 +9694,10 @@
         </settings>
         <settings>
             <name>CUSTOM</name>
-            <archiveVersion>3</archiveVersion>
+            <archiveVersion>4</archiveVersion>
             <data>
                 <extensions></extensions>
                 <cmdline></cmdline>
-                <hasPrio>1</hasPrio>
                 <buildSequence>inputOutputBased</buildSequence>
             </data>
         </settings>
@@ -9574,7 +9705,7 @@
             <name>ILINK</name>
             <archiveVersion>0</archiveVersion>
             <data>
-                <version>27</version>
+                <version>28</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -9941,6 +10072,10 @@
                 <option>
                     <name>IlinkFpuProcessor</name>
                     <state>1</state>
+                </option>
+                <option>
+                    <name>IlinkSharedSlave</name>
+                    <state>0</state>
                 </option>
             </data>
         </settings>
@@ -10585,7 +10720,6 @@
             <excluded>
                 <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_LPC55</configuration>
-                <configuration>TUSB_STM32F4-DISCO</configuration>
                 <configuration>TUSB_STM32L0</configuration>
                 <configuration>TUSB_STM32H5</configuration>
                 <configuration>TUSB_STM32F723E-DISCO</configuration>
@@ -10634,6 +10768,7 @@
         <group>
             <name>cdc_dual_ports</name>
             <excluded>
+                <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_LPC55</configuration>
                 <configuration>TUSB_STM32F429_HSnoPhy</configuration>
                 <configuration>TUSB_STM32F4-DISCO</configuration>
@@ -10713,13 +10848,13 @@
         <group>
             <name>hid_generic_inout</name>
             <excluded>
-                <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_LPC55</configuration>
                 <configuration>TUSB_STM32F429_HSnoPhy</configuration>
                 <configuration>TUSB_STM32F4-DISCO</configuration>
                 <configuration>TUSB_STM32L0</configuration>
                 <configuration>TUSB_STM32H5</configuration>
                 <configuration>TUSB_STM32F723E-DISCO</configuration>
+                <configuration>TUSB_NUCLEO-U5A5</configuration>
                 <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
             </excluded>
             <file>
@@ -10738,6 +10873,7 @@
                 <configuration>TUSB_STM32G0</configuration>
                 <configuration>TUSB_LPC55</configuration>
                 <configuration>TUSB_STM32F429_HSnoPhy</configuration>
+                <configuration>TUSB_STM32F4-DISCO</configuration>
                 <configuration>TUSB_STM32L0</configuration>
                 <configuration>TUSB_STM32H5</configuration>
                 <configuration>TUSB_STM32F723E-DISCO</configuration>
@@ -10791,7 +10927,6 @@
                 <configuration>TUSB_STM32L0</configuration>
                 <configuration>TUSB_STM32H5</configuration>
                 <configuration>TUSB_STM32F723E-DISCO</configuration>
-                <configuration>TUSB_NUCLEO-U5A5</configuration>
                 <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
             </excluded>
             <file>
@@ -10803,6 +10938,12 @@
                     <configuration>TUSB_STM32F723E-DISCO</configuration>
                     <configuration>TUSB_STM32F723E-DISCO_FS</configuration>
                 </excluded>
+            </file>
+            <file>
+                <name>$TUSB_DIR$\examples\device\uac2_speaker_fb\src\quirk_os_guessing.c</name>
+            </file>
+            <file>
+                <name>$TUSB_DIR$\examples\device\uac2_speaker_fb\src\quirk_os_guessing.h</name>
             </file>
             <file>
                 <name>$TUSB_DIR$\examples\device\uac2_speaker_fb\src\tusb_config.h</name>
@@ -10821,7 +10962,6 @@
                 <configuration>TUSB_LPC55</configuration>
                 <configuration>TUSB_STM32F429_HSnoPhy</configuration>
                 <configuration>TUSB_STM32F4-DISCO</configuration>
-                <configuration>TUSB_STM32L0</configuration>
                 <configuration>TUSB_STM32H5</configuration>
                 <configuration>TUSB_STM32F723E-DISCO</configuration>
                 <configuration>TUSB_NUCLEO-U5A5</configuration>
@@ -10850,6 +10990,7 @@
                 <configuration>TUSB_LPC55</configuration>
                 <configuration>TUSB_STM32F429_HSnoPhy</configuration>
                 <configuration>TUSB_STM32F4-DISCO</configuration>
+                <configuration>TUSB_STM32L0</configuration>
                 <configuration>TUSB_STM32H5</configuration>
                 <configuration>TUSB_STM32F723E-DISCO</configuration>
                 <configuration>TUSB_NUCLEO-U5A5</configuration>
@@ -10908,6 +11049,7 @@
                     <configuration>TUSB_STM32G0</configuration>
                     <configuration>TUSB_LPC55</configuration>
                     <configuration>TUSB_STM32F429_HSnoPhy</configuration>
+                    <configuration>TUSB_STM32F4-DISCO</configuration>
                     <configuration>TUSB_STM32L0</configuration>
                     <configuration>TUSB_STM32H5</configuration>
                     <configuration>TUSB_STM32F723E-DISCO</configuration>
