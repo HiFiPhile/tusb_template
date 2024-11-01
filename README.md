@@ -11,17 +11,14 @@ An IAR template project to build TinyUSB examples.
 - STM32H573I-DK
 - STM32F723E-DISCO
 - NUCLEO-U5A5Zj-Q
+- MIMXRT1170-EVKB
 
 ## Setup
 
 ### Prerequisites
 
-1. Clone TinyUSB and this template repositories.
-2. Add `TUSB_DIR` configuration variable in IAR.
-    1. Open `Tools -> Configure Custom Argument Variables`, switch to `Global` tab
-    2. Click `New Group …`, name it to `TUSB`
-    3. Click `Add Variable …`, name it to `TUSB_DIR`, change it’s value to the path of your TinyUSB stack, for example `C:\tinyusb`
-3. Checkout dependencies according to TinyUSB guide: https://docs.tinyusb.org/en/latest/reference/getting_started.html#dependencies
+1. Clone TinyUSB into tinyusb directory or use a symbolic link.
+2. Checkout dependencies according to TinyUSB guide: https://docs.tinyusb.org/en/latest/reference/getting_started.html#dependencies
 
 ### build
 
