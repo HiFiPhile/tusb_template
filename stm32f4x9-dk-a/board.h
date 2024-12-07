@@ -31,16 +31,21 @@
  extern "C" {
 #endif
 
-// LED
-#define LED_PORT              GPIOD
-#define LED_PIN               GPIO_PIN_13
-#define LED_STATE_ON          0
+#define PINID_LED      0
+#define PINID_BUTTON   1
 
-// Button
-#define BUTTON_PORT           GPIOA
-#define BUTTON_PIN            GPIO_PIN_0
-#define BUTTON_STATE_ACTIVE   1
-
+static board_pindef_t board_pindef[] = {
+  { // LED
+    .port = GPIOD,
+    .pin_init = { .Pin = GPIO_PIN_13, .Mode = GPIO_MODE_OUTPUT_PP, .Pull = GPIO_PULLDOWN, .Speed = GPIO_SPEED_HIGH, .Alternate = 0 },
+    .active_state = 1
+  },
+  { // BUTTON
+    .port = GPIOA,
+    .pin_init = { .Pin = GPIO_PIN_0, .Mode = GPIO_MODE_INPUT, .Pull = GPIO_PULLDOWN, .Speed = GPIO_SPEED_HIGH, .Alternate = 0 },
+    .active_state = 1
+  },
+};
 
 //--------------------------------------------------------------------+
 // RCC Clock
@@ -92,7 +97,7 @@ static inline void board_clock_init(void)
   __HAL_RCC_GPIOH_CLK_ENABLE();
 }
 
-static inline void board_vbus_sense_init(void)
+static inline void board_vbus_sense_init(uint8_t rhport)
 {
   // Enable VBUS sense (B device) via pin PA9
   USB_OTG_FS->GCCFG |= USB_OTG_GCCFG_NOVBUSSENS;
